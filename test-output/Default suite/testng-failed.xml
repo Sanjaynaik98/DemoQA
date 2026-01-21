@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.demoqa.webautomation.testcases.ElementsFunctionalityTest">
+        <methods>
+          <include name="verifyCreatedLinkAndGetResponseCode"/>
+          <include name="verifyEditingExistingRecord"/>
+          <include name="verifyClickOnVeuCheckbox"/>
+          <include name="verifyLinkOpenInNewTab"/>
+          <include name="verifyForbiddenAndGetResponseCode"/>
+          <include name="verifyEditButtonOpensRecordWithCorrectData"/>
+          <include name="verifySearchWithValidDepartment"/>
+          <include name="tearDown"/>
+          <include name="verifyDownloadFunctionality"/>
+          <include name="verifyBadRequestAndGetResponseCode"/>
+          <include name="verifySearchWithValidLastName"/>
+          <include name="verifyDeleteExistingRecord"/>
+          <include name="verifyNoContentAndGetResponseCode"/>
+          <include name="verifyClickOnWordFileCheckbox"/>
+          <include name="verifyClickOnReactCheckbox"/>
+          <include name="verifyWorkspaceSelectsAllChildCheckboxes"/>
+          <include name="verifyClickOnClassifiedCheckbox"/>
+          <include name="verifyMovedAndGetResponseCode"/>
+          <include name="verifyClickOnNotesCheckbox"/>
+          <include name="verifyDoubleClickFunctionality"/>
+          <include name="setUp"/>
+          <include name="verifyHomeFolderExpandCollapse"/>
+          <include name="verifyFormSubmissionWithValidName"/>
+          <include name="verifyRightClickFunctionality"/>
+          <include name="verifySearchWithValidFirstName"/>
+          <include name="verifySearchWithValidEmail"/>
+          <include name="verifyAddingNewRecordWithAllValidData"/>
+          <include name="verifyClickOnPrivateCheckbox"/>
+          <include name="verifyValidImage"/>
+          <include name="verifyYesRadioButtonSelected"/>
+          <include name="verifyFormSubmissionWithValidData"/>
+          <include name="verifyHomeSelectsAllCheckboxes"/>
+          <include name="verifyClickOnGeneralCheckbox"/>
+          <include name="setUpHomePage"/>
+          <include name="verifyInValidImage"/>
+          <include name="verifyOfficeSelectsAllChildCheckboxes"/>
+          <include name="verifyFormSubmissionWithValidEmail"/>
+          <include name="verifyClickOnAngularCheckbox"/>
+          <include name="verifyNotFoundAndGetResponseCode"/>
+          <include name="verifyImpressiveRadioButtonSelected"/>
+          <include name="verifyClickOnPublicCheckbox"/>
+          <include name="verifyClickOnExcelFileCheckbox"/>
+          <include name="verifyDynamicLinkOpenInNewTab"/>
+          <include name="verifyUnAuthorizedAndGetResponseCode"/>
+          <include name="verifyDownloadsSelectsAllChildCheckboxes"/>
+          <include name="verifyDocumentsSelectsAllChildCheckboxes"/>
+          <include name="verifySearchWithNoMatchingResults"/>
+          <include name="verifyAddButtonOpensRegistrationForm"/>
+          <include name="verifyFormSubmissionWithValidPermanentAddress"/>
+          <include name="verifyDesktopSelectsAllChildCheckboxes"/>
+          <include name="verifyClickOnCommandsCheckbox"/>
+          <include name="verifyValidLinkFunctionality"/>
+          <include name="verifyFormSubmissionWithValidCurrentAddress"/>
+          <include name="verifyClickMeFunctionality"/>
+          <include name="verifyBrokenLinkFunctionality"/>
+        </methods>
+      </class> <!-- com.demoqa.webautomation.testcases.ElementsFunctionalityTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

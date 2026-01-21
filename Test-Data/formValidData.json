@@ -1,0 +1,20 @@
+[
+  {
+    "fullName": "Sanjay Naik",
+    "email": "sanjay.naik@testmail.com",
+    "currentAddress": "No. 45, MG Road, Bengaluru, Karnataka, India",
+    "permanentAddress": "Village Naik Nagar, Kalaburagi, Karnataka, India"
+  },
+  {
+    "fullName": "Anita Sharma",
+    "email": "anita.sharma@testmail.com",
+    "currentAddress": "Flat 12B, Andheri West, Mumbai, Maharashtra, India",
+    "permanentAddress": "Civil Lines, Jaipur, Rajasthan, India"
+  },
+  {
+    "fullName": "Rahul Verma",
+    "email": "rahul.verma@testmail.com",
+    "currentAddress": "Sector 62, Noida, Uttar Pradesh, India",
+    "permanentAddress": "Rajendra Nagar, Patna, Bihar, India"
+  }
+]

@@ -1,0 +1,495 @@
+<html>
+<head>
+<title>TestNG:  Element Functionality Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Element Functionality Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>83/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 19 23:59:12 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>1649 seconds (1649982 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage()'><b>verifyValidImage</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_048: Verify valid image loads successfully</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnVeuCheckbox()'><b>verifyClickOnVeuCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_017: Verify clicking Veu checkbox selects it correctly</td>
+<td></td>
+<td>2</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyImpressiveRadioButtonSelected()'><b>verifyImpressiveRadioButtonSelected</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_025: Verify Impressive radio button can be selected successfully</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab()'><b>verifyLinkOpenInNewTab</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_039: Verify Home link opens in new tab</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDocumentsSelectsAllChildCheckboxes()'><b>verifyDocumentsSelectsAllChildCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_009: Verify clicking Documents checkbox selects all its child checkboxes</td>
+<td></td>
+<td>4</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnExcelFileCheckbox()'><b>verifyClickOnExcelFileCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_023: Verify clicking Excel File checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidDepartment()'><b>verifySearchWithValidDepartment</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_034: Verify search functionality with valid department name<br>Parameters: {firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyNoContentAndGetResponseCode()'><b>verifyNoContentAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_042: Verify No Content link returns 204 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidPermanentAddress()'><b>verifyFormSubmissionWithValidPermanentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_005: Verify form submission with only valid permanent address field<br>Parameters: {fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnNotesCheckbox()'><b>verifyClickOnNotesCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_013: Verify clicking Notes checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData()'><b>verifyEditButtonOpensRecordWithCorrectData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_028: Verify Edit button opens the correct record with accurate data<br>Parameters: {firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData()'><b>verifyAddingNewRecordWithAllValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_027: Verify adding a new record to web table with all valid data<br>Parameters: {firstName=Sanjay, lastName=Naik, salary=45000, department=QA Automation, email=sanjay.naik@testmail.com, age=25}</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyForbiddenAndGetResponseCode()'><b>verifyForbiddenAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_046: Verify Forbidden link returns 403 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse()'><b>verifyHomeFolderExpandCollapse</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_006: Verify Home folder expand and collapse functionality</td>
+<td></td>
+<td>10</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData()'><b>verifyFormSubmissionWithValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_001: Verify form submission with all valid data fields<br>Parameters: {fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidEmail()'><b>verifySearchWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_033: Verify search functionality with valid email address<br>Parameters: {firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidCurrentAddress()'><b>verifyFormSubmissionWithValidCurrentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_004: Verify form submission with only valid current address field<br>Parameters: {fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditingExistingRecord()'><b>verifyEditingExistingRecord</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_029: Verify editing an existing record in the web table<br>Parameters: {salary=20000, department=IT}, {firstName=Alden}</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyNotFoundAndGetResponseCode()'><b>verifyNotFoundAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_047: Verify Not Found link returns 404 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality()'><b>verifyDownloadFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_052: Verify file download functionality</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidPermanentAddress()'><b>verifyFormSubmissionWithValidPermanentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_005: Verify form submission with only valid permanent address field<br>Parameters: {fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidName()'><b>verifyFormSubmissionWithValidName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_002: Verify form submission with only valid name field<br>Parameters: {fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEnableAfter5Seconds()'><b>verifyEnableAfter5Seconds</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_055: Verify button becomes enabled after 5 seconds</td>
+<td></td>
+<td>5</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyVisibleAfter5Seconds()'><b>verifyVisibleAfter5Seconds</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_057: Verify button becomes visible after 5 seconds</td>
+<td></td>
+<td>5</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality()'><b>verifyRightClickFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_037: Verify right click functionality on button</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidCurrentAddress()'><b>verifyFormSubmissionWithValidCurrentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_004: Verify form submission with only valid current address field<br>Parameters: {fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUnAuthorizedAndGetResponseCode()'><b>verifyUnAuthorizedAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_045: Verify Unauthorized link returns 401 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidName()'><b>verifyFormSubmissionWithValidName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_002: Verify form submission with only valid name field<br>Parameters: {fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadsSelectsAllChildCheckboxes()'><b>verifyDownloadsSelectsAllChildCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_010: Verify clicking Downloads checkbox selects all its child checkboxes</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithNoMatchingResults()'><b>verifySearchWithNoMatchingResults</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_035: Verify search with no matching results displays appropriate message<br>Parameters: {firstName=Anita, lastName=Sharma, salary=52000, department=Finance, email=anita.sharma@testmail.com, age=28}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithNoMatchingResults()'><b>verifySearchWithNoMatchingResults</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_035: Verify search with no matching results displays appropriate message<br>Parameters: {firstName=Priya, lastName=Patil, salary=48000, department=HR, email=priya.patil@testmail.com, age=26}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData()'><b>verifyEditButtonOpensRecordWithCorrectData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_028: Verify Edit button opens the correct record with accurate data<br>Parameters: {firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidLastName()'><b>verifySearchWithValidLastName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_032: Verify search functionality with valid last name<br>Parameters: {firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDesktopSelectsAllChildCheckboxes()'><b>verifyDesktopSelectsAllChildCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_008: Verify clicking Desktop checkbox selects all its child checkboxes</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData()'><b>verifyFormSubmissionWithValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_001: Verify form submission with all valid data fields<br>Parameters: {fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}</td>
+<td></td>
+<td>6</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyMovedAndGetResponseCode()'><b>verifyMovedAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_043: Verify Moved link returns 301 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyInValidImage()'><b>verifyInValidImage</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_049: Verify broken image does not load</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected()'><b>verifyYesRadioButtonSelected</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_024: Verify Yes radio button can be selected successfully</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithNoMatchingResults()'><b>verifySearchWithNoMatchingResults</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_035: Verify search with no matching results displays appropriate message<br>Parameters: {firstName=Sanjay, lastName=Naik, salary=45000, department=QA Automation, email=sanjay.naik@testmail.com, age=25}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyWorkspaceSelectsAllChildCheckboxes()'><b>verifyWorkspaceSelectsAllChildCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_011: Verify clicking Workspace checkbox selects all its child checkboxes</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality()'><b>verifyDoubleClickFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_036: Verify double click functionality on button</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnPublicCheckbox()'><b>verifyClickOnPublicCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_018: Verify clicking Public checkbox selects it correctly</td>
+<td></td>
+<td>2</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData()'><b>verifyAddingNewRecordWithAllValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_027: Verify adding a new record to web table with all valid data<br>Parameters: {firstName=Anita, lastName=Sharma, salary=52000, department=Finance, email=anita.sharma@testmail.com, age=28}</td>
+<td></td>
+<td>4</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyBadRequestAndGetResponseCode()'><b>verifyBadRequestAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_044: Verify Bad Request link returns 400 response code</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidLinkFunctionality()'><b>verifyValidLinkFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_050: Verify valid link returns response code less than 400</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData()'><b>verifyAddingNewRecordWithAllValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_027: Verify adding a new record to web table with all valid data<br>Parameters: {firstName=Rahul, lastName=Verma, salary=60000, department=IT Support, email=rahul.verma@testmail.com, age=30}</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidEmail()'><b>verifyFormSubmissionWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_003: Verify form submission with only valid email field<br>Parameters: {fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidEmail()'><b>verifySearchWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_033: Verify search functionality with valid email address<br>Parameters: {firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDynamicLinkOpenInNewTab()'><b>verifyDynamicLinkOpenInNewTab</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_040: Verify dynamic link opens in new tab</td>
+<td></td>
+<td>7</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality()'><b>verifyUploadFileFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_053: Verify file upload functionality</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName()'><b>verifySearchWithValidFirstName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_031: Verify search functionality with valid first name<br>Parameters: {firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName()'><b>verifySearchWithValidFirstName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_031: Verify search functionality with valid first name<br>Parameters: {firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidEmail()'><b>verifyFormSubmissionWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_003: Verify form submission with only valid email field<br>Parameters: {fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidCurrentAddress()'><b>verifyFormSubmissionWithValidCurrentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_004: Verify form submission with only valid current address field<br>Parameters: {fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyColorChangeButton()'><b>verifyColorChangeButton</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_056: Verify button color changes dynamically</td>
+<td></td>
+<td>5</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithNoMatchingResults()'><b>verifySearchWithNoMatchingResults</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_035: Verify search with no matching results displays appropriate message<br>Parameters: {firstName=Rahul, lastName=Verma, salary=60000, department=IT Support, email=rahul.verma@testmail.com, age=30}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode()'><b>verifyCreatedLinkAndGetResponseCode</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_041: Verify Created link returns 201 response code</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData()'><b>verifyFormSubmissionWithValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_001: Verify form submission with all valid data fields<br>Parameters: {fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}</td>
+<td></td>
+<td>4</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnAngularCheckbox()'><b>verifyClickOnAngularCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_016: Verify clicking Angular checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnClassifiedCheckbox()'><b>verifyClickOnClassifiedCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_020: Verify clicking Classified checkbox selects it correctly</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText()'><b>verifyRandomIdText</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_054: Verify random ID text is displayed on dynamic properties page</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidEmail()'><b>verifyFormSubmissionWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_003: Verify form submission with only valid email field<br>Parameters: {fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnPrivateCheckbox()'><b>verifyClickOnPrivateCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_019: Verify clicking Private checkbox selects it correctly</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnReactCheckbox()'><b>verifyClickOnReactCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_015: Verify clicking React checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes()'><b>verifyHomeSelectsAllCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_007: Verify clicking Home checkbox selects all child checkboxes</td>
+<td></td>
+<td>4</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyOfficeSelectsAllChildCheckboxes()'><b>verifyOfficeSelectsAllChildCheckboxes</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_012: Verify clicking Office checkbox selects all its child checkboxes</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName()'><b>verifySearchWithValidFirstName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_031: Verify search functionality with valid first name<br>Parameters: {firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidLastName()'><b>verifySearchWithValidLastName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_032: Verify search functionality with valid last name<br>Parameters: {firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidDepartment()'><b>verifySearchWithValidDepartment</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_034: Verify search functionality with valid department name<br>Parameters: {firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord()'><b>verifyDeleteExistingRecord</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_030: Verify deleting an existing record from the web table<br>Parameters: {firstName=Alden}</td>
+<td></td>
+<td>23</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality()'><b>verifyClickMeFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_038: Verify Click Me button functionality</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidLastName()'><b>verifySearchWithValidLastName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_032: Verify search functionality with valid last name<br>Parameters: {firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidDepartment()'><b>verifySearchWithValidDepartment</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_034: Verify search functionality with valid department name<br>Parameters: {firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnGeneralCheckbox()'><b>verifyClickOnGeneralCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_021: Verify clicking General checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm()'><b>verifyAddButtonOpensRegistrationForm</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_026: Verify Add button opens registration form with all required fields</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidName()'><b>verifyFormSubmissionWithValidName</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_002: Verify form submission with only valid name field<br>Parameters: {fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidEmail()'><b>verifySearchWithValidEmail</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_033: Verify search functionality with valid email address<br>Parameters: {firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData()'><b>verifyAddingNewRecordWithAllValidData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_027: Verify adding a new record to web table with all valid data<br>Parameters: {firstName=Priya, lastName=Patil, salary=48000, department=HR, email=priya.patil@testmail.com, age=26}</td>
+<td></td>
+<td>2</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnCommandsCheckbox()'><b>verifyClickOnCommandsCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_014: Verify clicking Commands checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickOnWordFileCheckbox()'><b>verifyClickOnWordFileCheckbox</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_022: Verify clicking Word File checkbox selects it correctly</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData()'><b>verifyEditButtonOpensRecordWithCorrectData</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_028: Verify Edit button opens the correct record with accurate data<br>Parameters: {firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidPermanentAddress()'><b>verifyFormSubmissionWithValidPermanentAddress</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_005: Verify form submission with only valid permanent address field<br>Parameters: {fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+<tr>
+<td title='com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyBrokenLinkFunctionality()'><b>verifyBrokenLinkFunctionality</b><br>Test class: com.demoqa.webautomation.testcases.ElementsFunctionalityTest<br>Test method: TC_051: Verify broken link returns response code 400 or above</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c5dc4a2</td></tr>
+</table><p>
+</body>
+</html>

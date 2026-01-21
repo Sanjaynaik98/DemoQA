@@ -1,0 +1,34 @@
+[
+  {
+    "firstName": "Sanjay",
+    "lastName": "Naik",
+    "email": "sanjay.naik@testmail.com",
+    "age": 25,
+    "salary": 45000,
+    "department": "QA Automation"
+  },
+  {
+    "firstName": "Anita",
+    "lastName": "Sharma",
+    "email": "anita.sharma@testmail.com",
+    "age": 28,
+    "salary": 52000,
+    "department": "Finance"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Verma",
+    "email": "rahul.verma@testmail.com",
+    "age": 30,
+    "salary": 60000,
+    "department": "IT Support"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Patil",
+    "email": "priya.patil@testmail.com",
+    "age": 26,
+    "salary": 48000,
+    "department": "HR"
+  }
+]
