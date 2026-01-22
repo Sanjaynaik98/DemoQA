@@ -28,7 +28,7 @@ public class ElementsFunctionalityTest extends TestBase {
 
 	// ======================= TEXT BOX TESTS =======================
 
-	@Test(priority = 1, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = "textbox", description = "TC_001: Verify form submission with all valid data fields")
+	@Test(priority = 1, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = {"textbox","smoke","regression"}, description = "TC_001: Verify form submission with all valid data fields")
 	public void verifyFormSubmissionWithValidData(HashMap<String, String> input) {
 
 		logInfo("TC_001 STARTED: Verify Form Submission With Valid Data");
@@ -62,7 +62,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_001 PASSED: Form submitted successfully with valid data");
 	}
 
-	@Test(priority = 2, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = "textbox", description = "TC_002: Verify form submission with only valid name field")
+	@Test(priority = 2, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = {"textbox","regression"}, description = "TC_002: Verify form submission with only valid name field")
 	public void verifyFormSubmissionWithValidName(HashMap<String, String> input) {
 
 		logInfo("TC_002 STARTED: Verify Form Submission With Valid Name");
@@ -80,7 +80,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_002 PASSED: Form submitted successfully with valid name");
 	}
 
-	@Test(priority = 3, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = "textbox", description = "TC_003: Verify form submission with only valid email field")
+	@Test(priority = 3, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = {"textbox","regression"}, description = "TC_003: Verify form submission with only valid email field")
 	public void verifyFormSubmissionWithValidEmail(HashMap<String, String> input) {
 
 		logInfo("TC_003 STARTED: Verify Form Submission With Valid Email");
@@ -98,7 +98,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_003 PASSED: Form submitted successfully with valid email");
 	}
 
-	@Test(priority = 4, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = "textbox", description = "TC_004: Verify form submission with only valid current address field")
+	@Test(priority = 4, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = {"textbox","regression"}, description = "TC_004: Verify form submission with only valid current address field")
 	public void verifyFormSubmissionWithValidCurrentAddress(HashMap<String, String> input) {
 
 		logInfo("TC_004 STARTED: Verify Form Submission With Valid Current Address");
@@ -117,7 +117,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_004 PASSED: Form submitted successfully with valid current address");
 	}
 
-	@Test(priority = 5, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = "textbox", description = "TC_005: Verify form submission with only valid permanent address field")
+	@Test(priority = 5, dataProvider = "validFormData", dataProviderClass = DataProviders.class, groups = {"textbox","regression"}, description = "TC_005: Verify form submission with only valid permanent address field")
 	public void verifyFormSubmissionWithValidPermanentAddress(HashMap<String, String> input) {
 
 		logInfo("TC_005 STARTED: Verify Form Submission With Valid Permanent Address");
@@ -138,7 +138,7 @@ public class ElementsFunctionalityTest extends TestBase {
 
 	// ======================= CHECK BOX TESTS =======================
 
-	@Test(priority = 6, groups = "checkbox", description = "TC_006: Verify Home folder expand and collapse functionality")
+	@Test(priority = 6, groups = {"checkbox","smoke","regression"}, description = "TC_006: Verify Home folder expand and collapse functionality")
 	public void verifyHomeFolderExpandCollapse() {
 
 		logInfo("TC_006 STARTED - Verify Home Folder Expand Collapse");
@@ -165,7 +165,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_006 PASSED - Home folder expand & collapse verified");
 	}
 
-	@Test(priority = 7, groups = "checkbox", description = "TC_007: Verify clicking Home checkbox selects all child checkboxes")
+	@Test(priority = 7, groups = {"checkbox","smoke","regression"}, description = "TC_007: Verify clicking Home checkbox selects all child checkboxes")
 	public void verifyHomeSelectsAllCheckboxes() {
 
 		logInfo("TC_007 STARTED - Verify clicking Home selects all checkboxes");
@@ -184,7 +184,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_007 PASSED - Home checkbox selects all child checkboxes successfully");
 	}
 
-	@Test(priority = 8, groups = "checkbox", description = "TC_008: Verify clicking Desktop checkbox selects all its child checkboxes")
+	@Test(priority = 8, groups = {"checkbox","regression"}, description = "TC_008: Verify clicking Desktop checkbox selects all its child checkboxes")
 	public void verifyDesktopSelectsAllChildCheckboxes() {
 		logInfo("TC_008 STARTED - Verify clicking Desktop selects all child checkboxes");
 
@@ -203,7 +203,7 @@ public class ElementsFunctionalityTest extends TestBase {
 
 	}
 
-	@Test(priority = 9, groups = "checkbox", description = "TC_009: Verify clicking Documents checkbox selects all its child checkboxes")
+	@Test(priority = 9, groups = {"checkbox","regression"}, description = "TC_009: Verify clicking Documents checkbox selects all its child checkboxes")
 	public void verifyDocumentsSelectsAllChildCheckboxes() {
 
 		logInfo("TC_009 STARTED - Verify clicking Documents selects all child checkboxes");
@@ -225,7 +225,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_009 PASSED - Documents checkbox selects all its child checkboxes successfully");
 	}
 
-	@Test(priority = 10, groups = "checkbox", description = "TC_010: Verify clicking Downloads checkbox selects all its child checkboxes")
+	@Test(priority = 10, groups = {"checkbox","regression"}, description = "TC_010: Verify clicking Downloads checkbox selects all its child checkboxes")
 	public void verifyDownloadsSelectsAllChildCheckboxes() {
 
 		logInfo("TC_010 STARTED - Verify clicking Downloads selects all child checkboxes");
@@ -247,7 +247,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_010 PASSED - Downloads checkbox selects all its child checkboxes successfully");
 	}
 
-	@Test(priority = 11, groups = "checkbox", description = "TC_011: Verify clicking Workspace checkbox selects all its child checkboxes")
+	@Test(priority = 11, groups = {"checkbox","regression"}, description = "TC_011: Verify clicking Workspace checkbox selects all its child checkboxes")
 	public void verifyWorkspaceSelectsAllChildCheckboxes() {
 
 		logInfo("TC_011 STARTED - Verify clicking Workspace selects all child checkboxes");
@@ -272,7 +272,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_011 PASSED - Workspace checkbox selects all its child checkboxes successfully");
 	}
 
-	@Test(priority = 12, groups = "checkbox", description = "TC_012: Verify clicking Office checkbox selects all its child checkboxes")
+	@Test(priority = 12, groups = {"checkbox","regression"}, description = "TC_012: Verify clicking Office checkbox selects all its child checkboxes")
 	public void verifyOfficeSelectsAllChildCheckboxes() {
 
 		logInfo("TC_012 STARTED - Verify clicking Office selects all child checkboxes");
@@ -297,7 +297,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_012 PASSED - Office checkbox selects all its child checkboxes successfully");
 	}
 
-	@Test(priority = 13, groups = "checkbox", description = "TC_013: Verify clicking Notes checkbox selects it correctly")
+	@Test(priority = 13, groups = {"checkbox","regression"}, description = "TC_013: Verify clicking Notes checkbox selects it correctly")
 	public void verifyClickOnNotesCheckbox() {
 
 		logInfo("TC_013 STARTED - Verify clicking Notes selects the checkbox");
@@ -322,7 +322,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_013 PASSED - Notes checkbox selected successfully");
 	}
 
-	@Test(priority = 14, groups = "checkbox", description = "TC_014: Verify clicking Commands checkbox selects it correctly")
+	@Test(priority = 14, groups = {"checkbox","regression"}, description = "TC_014: Verify clicking Commands checkbox selects it correctly")
 	public void verifyClickOnCommandsCheckbox() {
 
 		logInfo("TC_014 STARTED - Verify clicking Commands selects the checkbox");
@@ -347,7 +347,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_014 PASSED - Commands checkbox selected successfully");
 	}
 
-	@Test(priority = 15, groups = "checkbox", description = "TC_015: Verify clicking React checkbox selects it correctly")
+	@Test(priority = 15, groups = {"checkbox","regression"}, description = "TC_015: Verify clicking React checkbox selects it correctly")
 	public void verifyClickOnReactCheckbox() {
 
 		logInfo("TC_015 STARTED - Verify clicking React selects the checkbox");
@@ -375,7 +375,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_015 PASSED - React checkbox selected successfully");
 	}
 
-	@Test(priority = 16, groups = "checkbox", description = "TC_016: Verify clicking Angular checkbox selects it correctly")
+	@Test(priority = 16, groups = {"checkbox","regression"}, description = "TC_016: Verify clicking Angular checkbox selects it correctly")
 	public void verifyClickOnAngularCheckbox() {
 
 		logInfo("TC_016 STARTED - Verify clicking Angular selects the checkbox");
@@ -403,7 +403,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_016 PASSED - Angular checkbox selected successfully");
 	}
 
-	@Test(priority = 17, groups = "checkbox", description = "TC_017: Verify clicking Veu checkbox selects it correctly")
+	@Test(priority = 17, groups = {"checkbox","regression"}, description = "TC_017: Verify clicking Veu checkbox selects it correctly")
 	public void verifyClickOnVeuCheckbox() {
 
 		logInfo("TC_017 STARTED - Verify clicking Veu selects the checkbox");
@@ -431,7 +431,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_017 PASSED - Veu checkbox selected successfully");
 	}
 
-	@Test(priority = 18, groups = "checkbox", description = "TC_018: Verify clicking Public checkbox selects it correctly")
+	@Test(priority = 18, groups = {"checkbox","regression"}, description = "TC_018: Verify clicking Public checkbox selects it correctly")
 	public void verifyClickOnPublicCheckbox() {
 
 		logInfo("TC_018 STARTED - Verify clicking Public selects the checkbox");
@@ -459,7 +459,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_018 PASSED - Public checkbox selected successfully");
 	}
 
-	@Test(priority = 19, groups = "checkbox", description = "TC_019: Verify clicking Private checkbox selects it correctly")
+	@Test(priority = 19, groups = {"checkbox","regression"}, description = "TC_019: Verify clicking Private checkbox selects it correctly")
 	public void verifyClickOnPrivateCheckbox() {
 
 		logInfo("TC_019 STARTED - Verify clicking Private selects the checkbox");
@@ -487,7 +487,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_019 PASSED - Private checkbox selected successfully");
 	}
 
-	@Test(priority = 20, groups = "checkbox", description = "TC_020: Verify clicking Classified checkbox selects it correctly")
+	@Test(priority = 20, groups = {"checkbox","regression"}, description = "TC_020: Verify clicking Classified checkbox selects it correctly")
 	public void verifyClickOnClassifiedCheckbox() {
 
 		logInfo("TC_020 STARTED - Verify clicking Classified selects the checkbox");
@@ -515,7 +515,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_020 PASSED - Classified checkbox selected successfully");
 	}
 
-	@Test(priority = 21, groups = "checkbox", description = "TC_021: Verify clicking General checkbox selects it correctly")
+	@Test(priority = 21, groups = {"checkbox","regression"}, description = "TC_021: Verify clicking General checkbox selects it correctly")
 	public void verifyClickOnGeneralCheckbox() {
 
 		logInfo("TC_021 STARTED - Verify clicking General selects the checkbox");
@@ -543,7 +543,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_021 PASSED - General checkbox selected successfully");
 	}
 
-	@Test(priority = 22, groups = "checkbox", description = "TC_022: Verify clicking Word File checkbox selects it correctly")
+	@Test(priority = 22, groups = {"checkbox","regression"}, description = "TC_022: Verify clicking Word File checkbox selects it correctly")
 	public void verifyClickOnWordFileCheckbox() {
 
 		logInfo("TC_022 STARTED - Verify clicking Word File selects the checkbox");
@@ -571,7 +571,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_022 PASSED - Word File checkbox selected successfully");
 	}
 
-	@Test(priority = 23, groups = "checkbox", description = "TC_023: Verify clicking Excel File checkbox selects it correctly")
+	@Test(priority = 23, groups = {"checkbox","regression"}, description = "TC_023: Verify clicking Excel File checkbox selects it correctly")
 	public void verifyClickOnExcelFileCheckbox() {
 
 		logInfo("TC_023 STARTED - Verify clicking Excel File selects the checkbox");
@@ -599,7 +599,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_023 PASSED - Excel File checkbox selected successfully");
 	}
 
-	@Test(priority = 24, groups = "radio", description = "TC_024: Verify Yes radio button can be selected successfully")
+	@Test(priority = 24, groups = {"radio","smoke","regression"}, description = "TC_024: Verify Yes radio button can be selected successfully")
 	public void verifyYesRadioButtonSelected() {
 
 		logInfo("TC_024 STARTED - Verify Yes radio button selection");
@@ -617,7 +617,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_024 PASSED - Yes radio button selected successfully");
 	}
 
-	@Test(priority = 25, groups = "radio", description = "TC_025: Verify Impressive radio button can be selected successfully")
+	@Test(priority = 25, groups = {"radio","regression"}, description = "TC_025: Verify Impressive radio button can be selected successfully")
 	public void verifyImpressiveRadioButtonSelected() {
 
 		logInfo("TC_025 STARTED - Verify Impressive radio button selection");
@@ -636,7 +636,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_025 PASSED - Impressive radio button selected successfully");
 	}
 
-	@Test(priority = 26, groups = "webtable", description = "TC_026: Verify Add button opens registration form with all required fields")
+	@Test(priority = 26, groups = {"webtable","smoke","regression"}, description = "TC_026: Verify Add button opens registration form with all required fields")
 	public void verifyAddButtonOpensRegistrationForm() {
 
 		logInfo("TC_026 STARTED - Verify Add button opens Registration form");
@@ -677,7 +677,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_026 PASSED - Registration form opened successfully with all fields visible");
 	}
 
-	@Test(priority = 27, dataProvider = "registrationFormValidData", dataProviderClass = DataProviders.class, groups = "webtable", description = "TC_027: Verify adding a new record to web table with all valid data")
+	@Test(priority = 27, dataProvider = "registrationFormValidData", dataProviderClass = DataProviders.class, groups = {"webtable","smoke","regression"}, description = "TC_027: Verify adding a new record to web table with all valid data")
 	public void verifyAddingNewRecordWithAllValidData(HashMap<String, String> input) {
 
 		logInfo("TC_027 STARTED - Verify adding new record with valid data");
@@ -722,7 +722,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_027 PASSED - Verify adding new record with valid data");
 	}
 
-	@Test(priority = 28, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = "webtable", description = "TC_028: Verify Edit button opens the correct record with accurate data")
+	@Test(priority = 28, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = {"webtable","smoke","regression"}, description = "TC_028: Verify Edit button opens the correct record with accurate data")
 	public void verifyEditButtonOpensRecordWithCorrectData(HashMap<String, String> input) {
 
 		logInfo("TC_028 STARTED - Verify Edit button opens record with correct data");
@@ -768,7 +768,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_028 COMPLETED - Edit button opens correct record");
 	}
 
-	@Test(priority = 29, dataProvider = "editWithValidName", dataProviderClass = DataProviders.class, groups = "webtable", description = "TC_029: Verify editing an existing record in the web table")
+	@Test(priority = 29, dataProvider = "editWithValidName", dataProviderClass = DataProviders.class, groups = {"webtable","regression"}, description = "TC_029: Verify editing an existing record in the web table")
 	public void verifyEditingExistingRecord(HashMap<String, String> editData, HashMap<String, String> validName) {
 
 		logInfo("TC_029 STARTED - Verify Editing Existing Record");
@@ -818,7 +818,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_029 PASSED - Record edited and validated successfully");
 	}
 
-	@Test(priority = 30, dataProvider = "validName", dataProviderClass = DataProviders.class, groups = "webtable", description = "TC_030: Verify deleting an existing record from the web table")
+	@Test(priority = 30, dataProvider = "validName", dataProviderClass = DataProviders.class, groups = {"webtable","smoke","regression"}, description = "TC_030: Verify deleting an existing record from the web table")
 	public void verifyDeleteExistingRecord(HashMap<String, String> validName) {
 
 		logInfo("TC_030 STARTED - Verify Delete Existing Record");
@@ -850,7 +850,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_030 COMPLETED - Verify Delete Existing Record");
 	}
 
-	@Test(priority = 31, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = "searchBox", description = "TC_031: Verify search functionality with valid first name")
+	@Test(priority = 31, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = {"searchBox","smoke","regression"}, description = "TC_031: Verify search functionality with valid first name")
 	public void verifySearchWithValidFirstName(HashMap<String, String> searchData) {
 
 		logInfo("TC_031 STARTED - Verify Search Functionality With Valid Name");
@@ -876,7 +876,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_031 COMPLETED - Verify Search Functionality With Valid Name");
 	}
 
-	@Test(priority = 32, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = "searchBox", description = "TC_032: Verify search functionality with valid last name")
+	@Test(priority = 32, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = {"searchBox","regression"}, description = "TC_032: Verify search functionality with valid last name")
 	public void verifySearchWithValidLastName(HashMap<String, String> searchData) {
 
 		logInfo("TC_032 STARTED - Verify Search Functionality With Valid Last Name");
@@ -900,7 +900,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_032 COMPLETED - Verify Search Functionality With Valid Last Name");
 	}
 
-	@Test(priority = 33, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = "searchBox", description = "TC_033: Verify search functionality with valid email address")
+	@Test(priority = 33, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = {"searchBox","regression"}, description = "TC_033: Verify search functionality with valid email address")
 	public void verifySearchWithValidEmail(HashMap<String, String> searchData) {
 
 		logInfo("TC_033 STARTED - Verify Search Functionality With Valid Email");
@@ -924,7 +924,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_033 COMPLETED - Verify Search Functionality With Valid Email");
 	}
 
-	@Test(priority = 34, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = "searchBox", description = "TC_034: Verify search functionality with valid department name")
+	@Test(priority = 34, dataProvider = "preDefinedWebTableData", dataProviderClass = DataProviders.class, groups = {"searchBox","regression"}, description = "TC_034: Verify search functionality with valid department name")
 	public void verifySearchWithValidDepartment(HashMap<String, String> searchData) {
 		logInfo("TC_034 STARTED - Verify Search Functionality With Valid Department");
 
@@ -947,7 +947,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_034 COMPLETED - Verify Search Functionality With Valid Department");
 	}
 
-	@Test(priority = 35, dataProvider = "registrationFormValidData", dataProviderClass = DataProviders.class, groups = "webtable", description = "TC_035: Verify search with no matching results displays appropriate message")
+	@Test(priority = 35, dataProvider = "registrationFormValidData", dataProviderClass = DataProviders.class, groups = {"searchBox","regression"}, description = "TC_035: Verify search with no matching results displays appropriate message")
 	public void verifySearchWithNoMatchingResults(HashMap<String, String> input) {
 
 		logInfo("TC_035 STARTED - Verify Search Functionality With No Matching Results");
@@ -970,7 +970,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_035 COMPLETED - Verify Search Functionality With No Matching Results");
 	}
 
-	@Test(priority = 36, description = "TC_036: Verify double click functionality on button")
+	@Test(priority = 36, description = "TC_036: Verify double click functionality on button",groups = {"buttons","smoke","regression"})
 	public void verifyDoubleClickFunctionality() {
 
 		logInfo("TC_036 STARTED - Verify Double Click Functionality");
@@ -988,7 +988,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_036 COMPLETED - Verify Double Click Functionality");
 	}
 
-	@Test(priority = 37, description = "TC_037: Verify right click functionality on button")
+	@Test(priority = 37, description = "TC_037: Verify right click functionality on button",groups = {"buttons","smoke","regression"})
 	public void verifyRightClickFunctionality() {
 
 		logInfo("TC_037 STARTED - Verify Right Click Functionality");
@@ -1006,7 +1006,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_037 COMPLETED - Verify Right Click Functionality");
 	}
 
-	@Test(priority = 38, description = "TC_038: Verify Click Me button functionality")
+	@Test(priority = 38, description = "TC_038: Verify Click Me button functionality",groups = {"buttons","smoke","regression"})
 	public void verifyClickMeFunctionality() {
 
 		logInfo("TC_038 STARTED - Verify Click Me Button Functionality");
@@ -1023,7 +1023,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_038 COMPLETED - Verify Click Me Button Functionality");
 	}
 
-	@Test(priority = 39, description = "TC_039: Verify Home link opens in new tab")
+	@Test(priority = 39, description = "TC_039: Verify Home link opens in new tab",groups = {"links","smoke","regression"})
 	public void verifyLinkOpenInNewTab() {
 
 		logInfo("TC_039 STARTED - Verify Home Link Opens In New Tab");
@@ -1040,7 +1040,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_039 COMPLETED - Verify Home Link Opens In New Tab");
 	}
 
-	@Test(priority = 40, description = "TC_040: Verify dynamic link opens in new tab")
+	@Test(priority = 40, description = "TC_040: Verify dynamic link opens in new tab",groups = {"links","regression"})
 	public void verifyDynamicLinkOpenInNewTab() {
 
 		logInfo("TC_040 STARTED - Verify Dynamic Link Opens In New Tab");
@@ -1058,7 +1058,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_040 COMPLETED - Verify Dynamic Link Opens In New Tab");
 	}
 
-	@Test(priority = 41, description = "TC_041: Verify Created link returns 201 response code")
+	@Test(priority = 41, description = "TC_041: Verify Created link returns 201 response code",groups = {"links","smoke","regression","api"})
 	public void verifyCreatedLinkAndGetResponseCode() {
 
 		logInfo("TC_041 STARTED - Verify Created Link Response");
@@ -1076,7 +1076,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_041 COMPLETED - Verify Created Link Response");
 	}
 
-	@Test(priority = 42, description = "TC_042: Verify No Content link returns 204 response code")
+	@Test(priority = 42, description = "TC_042: Verify No Content link returns 204 response code",groups = {"links","regression","api"})
 	public void verifyNoContentAndGetResponseCode() {
 
 		logInfo("TC_042 STARTED - Verify No Content Link Response");
@@ -1094,7 +1094,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_042 COMPLETED - Verify No Content Link Response");
 	}
 
-	@Test(priority = 43, description = "TC_043: Verify Moved link returns 301 response code")
+	@Test(priority = 43, description = "TC_043: Verify Moved link returns 301 response code",groups = {"links","regression","api"})
 	public void verifyMovedAndGetResponseCode() {
 
 		logInfo("TC_043 STARTED - Verify Moved Link Response");
@@ -1112,7 +1112,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_043 COMPLETED - Verify Moved Link Response");
 	}
 
-	@Test(priority = 44, description = "TC_044: Verify Bad Request link returns 400 response code")
+	@Test(priority = 44, description = "TC_044: Verify Bad Request link returns 400 response code",groups = {"links","regression","api"})
 	public void verifyBadRequestAndGetResponseCode() {
 
 		logInfo("TC_044 STARTED - Verify Bad Request Link Response");
@@ -1130,7 +1130,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_044 COMPLETED - Verify Bad Request Link Response");
 	}
 
-	@Test(priority = 45, description = "TC_045: Verify Unauthorized link returns 401 response code")
+	@Test(priority = 45, description = "TC_045: Verify Unauthorized link returns 401 response code",groups = {"links","regression","api"})
 	public void verifyUnAuthorizedAndGetResponseCode() {
 
 		logInfo("TC_045 STARTED - Verify Unauthorized Link Response");
@@ -1148,7 +1148,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_045 COMPLETED - Verify Unauthorized Link Response");
 	}
 
-	@Test(priority = 46, description = "TC_046: Verify Forbidden link returns 403 response code")
+	@Test(priority = 46, description = "TC_046: Verify Forbidden link returns 403 response code",groups = {"links","regression","api"})
 	public void verifyForbiddenAndGetResponseCode() {
 
 		logInfo("TC_046 STARTED - Verify Forbidden Link Response");
@@ -1166,7 +1166,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_046 COMPLETED - Verify Forbidden Link Response");
 	}
 
-	@Test(priority = 47, description = "TC_047: Verify Not Found link returns 404 response code")
+	@Test(priority = 47, description = "TC_047: Verify Not Found link returns 404 response code",groups = {"links","regression","api"})
 	public void verifyNotFoundAndGetResponseCode() {
 
 		logInfo("TC_047 STARTED - Verify Not Found Link Response");
@@ -1184,7 +1184,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_047 COMPLETED - Verify Not Found Link Response");
 	}
 
-	@Test(priority = 48, description = "TC_048: Verify valid image loads successfully")
+	@Test(priority = 48, description = "TC_048: Verify valid image loads successfully",groups = {"images","smoke","regression"})
 	public void verifyValidImage() {
 
 		logInfo("TC_048 STARTED - Verify Valid Image Is Loaded");
@@ -1201,7 +1201,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_048 COMPLETED - Verify Valid Image Is Loaded");
 	}
 
-	@Test(priority = 49, description = "TC_049: Verify broken image does not load")
+	@Test(priority = 49, description = "TC_049: Verify broken image does not load",groups = {"images","regression"})
 	public void verifyInValidImage() {
 
 		logInfo("TC_049 STARTED - Verify Broken Image Is Not Loaded");
@@ -1218,7 +1218,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_049 COMPLETED - Verify Broken Image Is Not Loaded");
 	}
 
-	@Test(priority = 50, description = "TC_050: Verify valid link returns response code less than 400")
+	@Test(priority = 50, description = "TC_050: Verify valid link returns response code less than 400",groups = {"links","regression"})
 	public void verifyValidLinkFunctionality() {
 
 		logInfo("TC_050 STARTED - Verify Valid Link Functionality");
@@ -1235,7 +1235,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_050 COMPLETED - Verify Valid Link Functionality");
 	}
 
-	@Test(priority = 51, description = "TC_051: Verify broken link returns response code 400 or above")
+	@Test(priority = 51, description = "TC_051: Verify broken link returns response code 400 or above",groups = {"links","regression"})
 	public void verifyBrokenLinkFunctionality() {
 
 		logInfo("TC_051 STARTED - Verify Broken Link Functionality");
@@ -1252,7 +1252,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_051 COMPLETED - Verify Broken Link Functionality");
 	}
 
-	@Test(priority = 52, description = "TC_052: Verify file download functionality")
+	@Test(priority = 52, description = "TC_052: Verify file download functionality",groups = {"filehandling","smoke","regression"})
 	public void verifyDownloadFunctionality() throws Exception {
 
 		logInfo("TC_052 STARTED - Verify Download Functionality");
@@ -1277,7 +1277,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_052 COMPLETED - Verify Download Functionality");
 	}
 
-	@Test(priority = 53, description = "TC_053: Verify file upload functionality")
+	@Test(priority = 53, description = "TC_053: Verify file upload functionality",groups = {"filehandling","smoke","regression"})
 	public void verifyUploadFileFunctionality() {
 
 		logInfo("TC_053 STARTED - Verify Upload File Functionality");
@@ -1294,7 +1294,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_053 COMPLETED - Verify Upload File Functionality");
 	}
 
-	@Test(priority = 54, description = "TC_054: Verify random ID text is displayed on dynamic properties page")
+	@Test(priority = 54, description = "TC_054: Verify random ID text is displayed on dynamic properties page",groups = {"dynamic","smoke","regression"})
 	public void verifyRandomIdText() {
 
 		logInfo("TC_054 STARTED - Verify Random Id Text");
@@ -1311,7 +1311,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_054 COMPLETED - Verify Random Id Text");
 	}
 
-	@Test(priority = 55, description = "TC_055: Verify button becomes enabled after 5 seconds")
+	@Test(priority = 55, description = "TC_055: Verify button becomes enabled after 5 seconds",groups = {"dynamic","regression"})
 	public void verifyEnableAfter5Seconds() {
 
 		logInfo("TC_055 STARTED - Verify Enable After 5 Seconds Functionality");
@@ -1328,7 +1328,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_055 COMPLETED - Verify Enable After 5 Seconds Functionality");
 	}
 
-	@Test(priority = 56, description = "TC_056: Verify button color changes dynamically")
+	@Test(priority = 56, description = "TC_056: Verify button color changes dynamically",groups = {"dynamic","regression"})
 	public void verifyColorChangeButton() {
 
 		logInfo("TC_056 STARTED - Verify Color Change Functionality");
@@ -1345,7 +1345,7 @@ public class ElementsFunctionalityTest extends TestBase {
 		logInfo("TC_056 COMPLETED - Verify Color Change Functionality");
 	}
 
-	@Test(priority = 57, description = "TC_057: Verify button becomes visible after 5 seconds")
+	@Test(priority = 57, description = "TC_057: Verify button becomes visible after 5 seconds",groups = {"dynamic","regression"})
 	public void verifyVisibleAfter5Seconds() {
 
 		logInfo("TC_057 STARTED - Verify Visible After 5 Seconds Functionality");
