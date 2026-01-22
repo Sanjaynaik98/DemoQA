@@ -8515,3 +8515,1008 @@ Insurance
 2026-01-21 22:09:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Uploaded File Status Message: C:\fakepath\Downloaded_20260118_193135.jpeg
 2026-01-21 22:09:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File uploaded successfully and file name verified
 2026-01-21 22:09:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_053 COMPLETED - Verify Upload File Functionality
+2026-01-22 20:45:38 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\QA\DemoQA\Test-Suites\smoke-test-execution.xml"
+2026-01-22 20:45:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\QA\DemoQA\Test-Suites\smoke-test-execution.xml
+
+2026-01-22 20:45:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:45:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:45:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 20:45:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 20:45:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 20:45:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 20:45:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 20:45:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 20:45:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 20:45:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 20:45:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 20:46:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:46:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:46:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 20:46:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 20:46:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 20:46:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 20:46:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 20:46:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 20:46:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 20:46:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 20:46:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 20:46:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:46:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:46:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 20:46:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 20:46:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 20:46:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 20:46:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 20:46:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 20:46:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 20:46:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 20:46:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 20:46:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:46:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:46:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_006 STARTED - Verify Home Folder Expand Collapse
+2026-01-22 20:46:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Check Box section
+2026-01-22 20:46:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expanded Home folder
+2026-01-22 20:46:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Checked Desktop visibility after expand: true
+2026-01-22 20:46:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Collapsed Home folder
+2026-01-22 20:46:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Checked Desktop invisibility after collapse: true
+2026-01-22 20:46:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_006 PASSED - Home folder expand & collapse verified
+2026-01-22 20:47:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:47:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:47:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_007 STARTED - Verify clicking Home selects all checkboxes
+2026-01-22 20:47:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Check Box section
+2026-01-22 20:47:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Home checkbox
+2026-01-22 20:47:10 [main] DEBUG com.demoqa.webautomation.pagebase.PageBase - Selected checkboxes: [home, desktop, notes, commands, documents, workspace, react, angular, veu, office, public, private, classified, general, downloads, wordfile, excelfile]
+2026-01-22 20:47:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verification result for all checkboxes selected: true
+2026-01-22 20:47:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_007 PASSED - Home checkbox selects all child checkboxes successfully
+2026-01-22 20:47:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:47:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:47:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_024 STARTED - Verify Yes radio button selection
+2026-01-22 20:47:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Radio Button section
+2026-01-22 20:47:23 [main] DEBUG com.demoqa.webautomation.pagebase.PageBase - Clicked on Yes radio button
+2026-01-22 20:47:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Yes radio button
+2026-01-22 20:47:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - UI confirmation message: Yes
+2026-01-22 20:47:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_024 PASSED - Yes radio button selected successfully
+2026-01-22 20:47:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:47:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:47:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_026 STARTED - Verify Add button opens Registration form
+2026-01-22 20:47:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:47:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:47:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Registration form is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Registration title is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department field is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Submit button is displayed
+2026-01-22 20:47:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_026 PASSED - Registration form opened successfully with all fields visible
+2026-01-22 20:48:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:48:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:48:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:48:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 20:48:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 20:48:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:48:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:48:07 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 20:48:07 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 20:48:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 20:48:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 20:48:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:48:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:48:29 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 20:48:29 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 20:48:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:48:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:48:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:48:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 20:48:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 20:48:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:48:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:48:43 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 20:48:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:48:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:48:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 20:48:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 20:48:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:48:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:48:58 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 20:48:58 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 20:49:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:49:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:49:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 20:49:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 20:49:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:49:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:49:16 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 20:49:16 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 20:49:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:49:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:49:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:49:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 20:49:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 20:49:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:49:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:49:32 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 20:49:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:49:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:49:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:49:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 20:49:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 20:49:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:49:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:49:47 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 20:49:47 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 20:49:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:49:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:49:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 20:49:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 20:50:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:50:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:50:01 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 20:50:01 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 20:50:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:50:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:50:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:50:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 20:50:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 20:50:15 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:50:15 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:50:15 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 20:50:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:50:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:50:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:50:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 20:50:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 20:50:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:50:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:50:33 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Priya Patil
+2026-01-22 20:50:33 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 20:50:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:50:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:50:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:50:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 20:51:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 20:51:26 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 20:51:40 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 20:51:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 20:51:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 20:51:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 20:51:44 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Priya Patil
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:52:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Cierra
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Cierra | Actual: Cierra
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Vega | Actual: Vega
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: cierra@example.com | Actual: cierra@example.com
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 39 | Actual: 39
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 10000 | Actual: 10000
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Insurance | Actual: Insurance
+2026-01-22 20:52:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:52:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Alden
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Alden | Actual: Alden
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Cantrell | Actual: Cantrell
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: alden@example.com | Actual: alden@example.com
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 45 | Actual: 45
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 12000 | Actual: 12000
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Compliance | Actual: Compliance
+2026-01-22 20:52:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:52:44 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Kierra
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Kierra | Actual: Kierra
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Gentry | Actual: Gentry
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: kierra@example.com | Actual: kierra@example.com
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 29 | Actual: 29
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 2000 | Actual: 2000
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Legal | Actual: Legal
+2026-01-22 20:52:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_030 STARTED - Verify Delete Existing Record
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 1: Clicked on Elements module
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 2: Navigated to Web Tables page
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Test Data - First Name to delete: Alden
+2026-01-22 20:53:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 3: Fetching existing record before delete
+2026-01-22 20:53:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record found before delete: {firstName=Alden, lastName=Cantrell, age=45, email=alden@example.com, salary=12000, department=Compliance}
+2026-01-22 20:53:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 4: Clicking Delete icon for record
+2026-01-22 20:53:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Delete icon clicked successfully
+2026-01-22 20:53:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 5: Verifying record is removed from table
+2026-01-22 20:53:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully deleted for First Name: Alden
+2026-01-22 20:53:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_030 COMPLETED - Verify Delete Existing Record
+2026-01-22 20:53:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:53:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:53:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 20:53:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:53:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:53:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Cierra
+2026-01-22 20:53:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 20:53:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 20:53:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Cierra
+2026-01-22 20:53:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 20:54:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Alden
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 20:54:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 20:54:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Alden
+2026-01-22 20:54:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 20:54:20 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:54:35 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:54:35 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 20:54:35 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 20:54:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 20:54:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Kierra
+2026-01-22 20:54:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 20:54:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 20:54:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Kierra
+2026-01-22 20:54:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 20:54:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:54:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:54:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 STARTED - Verify Double Click Functionality
+2026-01-22 20:54:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 20:55:11 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyDoubleClickFunctionality | Attempt: 2 of 3
+2026-01-22 20:55:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:55:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:55:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 STARTED - Verify Double Click Functionality
+2026-01-22 20:55:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 20:55:52 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyDoubleClickFunctionality | Attempt: 3 of 3
+2026-01-22 20:56:18 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:56:18 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:56:18 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 STARTED - Verify Double Click Functionality
+2026-01-22 20:56:18 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 20:56:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Performed double click action
+2026-01-22 20:56:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Double click message is displayed as expected
+2026-01-22 20:56:19 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 COMPLETED - Verify Double Click Functionality
+2026-01-22 20:56:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:56:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:56:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_037 STARTED - Verify Right Click Functionality
+2026-01-22 20:56:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 20:56:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Performed right click action
+2026-01-22 20:56:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Right click message is displayed as expected
+2026-01-22 20:56:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_037 COMPLETED - Verify Right Click Functionality
+2026-01-22 20:57:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:57:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:57:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_038 STARTED - Verify Click Me Button Functionality
+2026-01-22 20:57:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 20:57:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Click Me button
+2026-01-22 20:57:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Click Me message is displayed as expected
+2026-01-22 20:57:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_038 COMPLETED - Verify Click Me Button Functionality
+2026-01-22 20:57:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:57:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:57:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 STARTED - Verify Home Link Opens In New Tab
+2026-01-22 20:57:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 20:57:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Switched to new tab and captured title: 
+2026-01-22 20:57:31 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyLinkOpenInNewTab | Attempt: 2 of 3
+2026-01-22 20:57:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:57:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:57:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 STARTED - Verify Home Link Opens In New Tab
+2026-01-22 20:58:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 20:58:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Switched to new tab and captured title: DEMOQA
+2026-01-22 20:58:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Home link opened in new tab successfully and title matched
+2026-01-22 20:58:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 COMPLETED - Verify Home Link Opens In New Tab
+2026-01-22 20:58:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:58:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:58:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_041 STARTED - Verify Created Link Response
+2026-01-22 20:58:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 20:58:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Created Link Response: Link has responded with staus 201 and status text Created
+2026-01-22 20:58:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Created link response verified successfully
+2026-01-22 20:58:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_041 COMPLETED - Verify Created Link Response
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_048 STARTED - Verify Valid Image Is Loaded
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Broken Links - Images page
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Valid Image Loaded Status: true
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Valid image loaded successfully
+2026-01-22 20:58:55 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_048 COMPLETED - Verify Valid Image Is Loaded
+2026-01-22 20:59:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:59:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:59:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_052 STARTED - Verify Download Functionality
+2026-01-22 20:59:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Upload and Download page
+2026-01-22 20:59:15 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Download button
+2026-01-22 20:59:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Downloaded file renamed to: Downloaded_20260122_205916.jpeg
+2026-01-22 20:59:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File present in downloads folder: true
+2026-01-22 20:59:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File downloaded and verified successfully
+2026-01-22 20:59:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_052 COMPLETED - Verify Download Functionality
+2026-01-22 20:59:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_053 STARTED - Verify Upload File Functionality
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Upload and Download page
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Uploading file from path: D:\QA\DemoQA\downloads\Downloaded_20260118_193135.jpeg
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Uploaded File Status Message: C:\fakepath\Downloaded_20260118_193135.jpeg
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File uploaded successfully and file name verified
+2026-01-22 20:59:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_053 COMPLETED - Verify Upload File Functionality
+2026-01-22 21:00:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_054 STARTED - Verify Random Id Text
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Dynamic Properties page
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Random Id Text Displayed: true
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Random Id text verified successfully
+2026-01-22 21:00:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_054 COMPLETED - Verify Random Id Text
+2026-01-22 21:10:45 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\QA\DemoQA\Test-Suites\specifictestcase.xml"
+2026-01-22 21:10:46 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\QA\DemoQA\Test-Suites\specifictestcase.xml
+
+2026-01-22 21:10:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:11:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:11:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 21:11:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 21:11:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:11:16 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:11:17 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 21:11:17 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 21:11:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:11:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:11:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:11:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 21:11:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 21:11:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:11:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:11:53 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 21:11:53 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 21:12:20 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:12:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:12:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:12:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 21:12:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 21:12:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:12:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:12:31 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Sanjay Naik
+2026-01-22 21:12:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:12:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:12:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:12:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 21:12:52 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 21:12:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:12:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:12:58 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 21:12:58 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 21:13:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:13:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:13:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 21:13:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 21:13:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:13:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:13:35 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 21:13:35 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 21:13:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:13:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:13:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:13:56 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 21:13:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 21:14:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:14:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:14:04 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Anita Sharma
+2026-01-22 21:14:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:14:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:14:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 21:14:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 21:14:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:14:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:14:28 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 21:14:28 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 21:14:45 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:14:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:14:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:14:46 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 21:14:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 21:14:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:14:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:14:51 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 21:14:51 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 21:15:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:15:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:15:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 21:15:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 21:15:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:15:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:15:12 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Rahul Verma
+2026-01-22 21:15:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:15:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:15:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:15:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 21:15:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 21:15:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:15:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:15:43 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Priya Patil
+2026-01-22 21:15:43 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 2 of 3
+2026-01-22 21:16:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:16:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:16:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:16:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 21:16:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 21:16:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:16:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:16:16 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Priya Patil
+2026-01-22 21:16:16 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyAddingNewRecordWithAllValidData | Attempt: 3 of 3
+2026-01-22 21:16:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:16:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:16:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 21:16:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 21:16:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:16:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:16:52 [main] ERROR com.demoqa.webautomation.pagebase.TestBase - Record NOT found in Web Table for: Priya Patil
+2026-01-22 21:17:33 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\QA\DemoQA\Test-Suites\specifictestcase.xml"
+2026-01-22 21:17:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\QA\DemoQA\Test-Suites\specifictestcase.xml
+
+2026-01-22 21:17:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:17:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:17:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:17:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 21:17:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 21:18:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:18:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:18:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Sanjay Naik
+2026-01-22 21:18:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:18:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:18:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:18:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 21:18:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 21:18:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:18:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:18:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Anita Sharma
+2026-01-22 21:18:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:18:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:18:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:18:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 21:18:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 21:19:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:19:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:19:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Rahul Verma
+2026-01-22 21:19:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:19:20 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:19:20 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:19:20 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 21:19:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 21:19:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:19:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:19:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Priya Patil
+2026-01-22 21:19:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:23:02 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\QA\DemoQA\Test-Suites\smoke-test-execution.xml"
+2026-01-22 21:23:03 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\QA\DemoQA\Test-Suites\smoke-test-execution.xml
+
+2026-01-22 21:23:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:23:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:23:24 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 21:23:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 21:23:25 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 21:23:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 21:23:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 21:23:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 21:23:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 21:23:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 21:23:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 21:23:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:23:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:23:47 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 21:23:48 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 21:23:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 21:23:49 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 21:23:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 21:23:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 21:23:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 21:23:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 21:23:51 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 21:24:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:24:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:24:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 STARTED: Verify Form Submission With Valid Data
+2026-01-22 21:24:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Text Box section
+2026-01-22 21:24:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Full Name
+2026-01-22 21:24:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Email
+2026-01-22 21:24:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Current Address
+2026-01-22 21:24:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entered Permanent Address
+2026-01-22 21:24:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked Submit button
+2026-01-22 21:24:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating submitted form output
+2026-01-22 21:24:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_001 PASSED: Form submitted successfully with valid data
+2026-01-22 21:24:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:24:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:24:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_006 STARTED - Verify Home Folder Expand Collapse
+2026-01-22 21:24:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Check Box section
+2026-01-22 21:24:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expanded Home folder
+2026-01-22 21:24:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Checked Desktop visibility after expand: true
+2026-01-22 21:24:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Collapsed Home folder
+2026-01-22 21:25:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Checked Desktop invisibility after collapse: true
+2026-01-22 21:25:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_006 PASSED - Home folder expand & collapse verified
+2026-01-22 21:25:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:25:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:25:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_007 STARTED - Verify clicking Home selects all checkboxes
+2026-01-22 21:25:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Check Box section
+2026-01-22 21:25:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Home checkbox
+2026-01-22 21:25:38 [main] DEBUG com.demoqa.webautomation.pagebase.PageBase - Selected checkboxes: [home, desktop, notes, commands, documents, workspace, react, angular, veu, office, public, private, classified, general, downloads, wordfile, excelfile]
+2026-01-22 21:25:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verification result for all checkboxes selected: true
+2026-01-22 21:25:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_007 PASSED - Home checkbox selects all child checkboxes successfully
+2026-01-22 21:26:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:26:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:26:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_024 STARTED - Verify Yes radio button selection
+2026-01-22 21:26:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Radio Button section
+2026-01-22 21:26:01 [main] DEBUG com.demoqa.webautomation.pagebase.PageBase - Clicked on Yes radio button
+2026-01-22 21:26:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Yes radio button
+2026-01-22 21:26:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - UI confirmation message: Yes
+2026-01-22 21:26:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_024 PASSED - Yes radio button selected successfully
+2026-01-22 21:26:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:26:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:26:21 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_026 STARTED - Verify Add button opens Registration form
+2026-01-22 21:26:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:26:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:26:22 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Registration form is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Registration title is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department field is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Submit button is displayed
+2026-01-22 21:26:23 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_026 PASSED - Registration form opened successfully with all fields visible
+2026-01-22 21:26:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:26:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:26:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:27:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Sanjay
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Naik
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: sanjay.naik@testmail.com
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 25
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 45000
+2026-01-22 21:27:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: QA Automation
+2026-01-22 21:27:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:27:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:27:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Sanjay Naik
+2026-01-22 21:27:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:27:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:27:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:27:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Anita
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Sharma
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: anita.sharma@testmail.com
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 28
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 52000
+2026-01-22 21:27:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: Finance
+2026-01-22 21:27:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:27:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:27:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Anita Sharma
+2026-01-22 21:27:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:28:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:28:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:28:03 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Rahul
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Verma
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: rahul.verma@testmail.com
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 30
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 60000
+2026-01-22 21:28:05 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: IT Support
+2026-01-22 21:28:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:28:08 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:28:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Rahul Verma
+2026-01-22 21:28:09 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:28:37 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:28:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:28:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 STARTED - Verify adding new record with valid data
+2026-01-22 21:28:38 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables section
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Add New Record button
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Entering Registration Form details:
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - First Name: Priya
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Last Name: Patil
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Email: priya.patil@testmail.com
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Age: 26
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Salary: 48000
+2026-01-22 21:28:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Department: HR
+2026-01-22 21:28:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Submit button
+2026-01-22 21:28:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating if newly added record is present in Web Table
+2026-01-22 21:28:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully found in Web Table for: Priya Patil
+2026-01-22 21:28:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_027 PASSED - Verify adding new record with valid data
+2026-01-22 21:28:50 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:29:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:29:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 21:29:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:29:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:29:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Cierra
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Cierra | Actual: Cierra
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Vega | Actual: Vega
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: cierra@example.com | Actual: cierra@example.com
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 39 | Actual: 39
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 10000 | Actual: 10000
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Insurance | Actual: Insurance
+2026-01-22 21:29:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:29:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Alden
+2026-01-22 21:29:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 21:29:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 21:29:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Alden | Actual: Alden
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Cantrell | Actual: Cantrell
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: alden@example.com | Actual: alden@example.com
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 45 | Actual: 45
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 12000 | Actual: 12000
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Compliance | Actual: Compliance
+2026-01-22 21:29:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 STARTED - Verify Edit button opens record with correct data
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:30:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicking Edit for record with First Name: Kierra
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form is displayed
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating Registration Form title is displayed
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Fetching values from Registration Form
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Validating form data against expected values
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected First Name: Kierra | Actual: Kierra
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Last Name: Gentry | Actual: Gentry
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Email: kierra@example.com | Actual: kierra@example.com
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Age: 29 | Actual: 29
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Salary: 2000 | Actual: 2000
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Expected Department: Legal | Actual: Legal
+2026-01-22 21:30:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_028 COMPLETED - Edit button opens correct record
+2026-01-22 21:30:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:30:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:30:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_030 STARTED - Verify Delete Existing Record
+2026-01-22 21:30:41 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 1: Clicked on Elements module
+2026-01-22 21:30:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 2: Navigated to Web Tables page
+2026-01-22 21:30:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Test Data - First Name to delete: Alden
+2026-01-22 21:30:42 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 3: Fetching existing record before delete
+2026-01-22 21:30:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record found before delete: {firstName=Alden, lastName=Cantrell, age=45, email=alden@example.com, salary=12000, department=Compliance}
+2026-01-22 21:30:43 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 4: Clicking Delete icon for record
+2026-01-22 21:30:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Delete icon clicked successfully
+2026-01-22 21:30:54 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Step 5: Verifying record is removed from table
+2026-01-22 21:31:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Record successfully deleted for First Name: Alden
+2026-01-22 21:31:04 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_030 COMPLETED - Verify Delete Existing Record
+2026-01-22 21:31:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:31:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:31:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 21:31:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:31:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:31:27 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Cierra
+2026-01-22 21:31:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 21:31:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 21:31:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Cierra
+2026-01-22 21:31:28 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 21:31:36 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:31:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:31:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 21:31:57 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:31:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:31:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Alden
+2026-01-22 21:31:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 21:31:58 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 21:31:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Alden
+2026-01-22 21:31:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 21:32:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:32:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:32:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 STARTED - Verify Search Functionality With Valid Name
+2026-01-22 21:32:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Elements module
+2026-01-22 21:32:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Web Tables page
+2026-01-22 21:32:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search keyword entered: Kierra
+2026-01-22 21:32:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Search text entered in search box
+2026-01-22 21:32:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Verifying filtered table results
+2026-01-22 21:32:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Only matching record is displayed for search keyword: Kierra
+2026-01-22 21:32:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_031 COMPLETED - Verify Search Functionality With Valid Name
+2026-01-22 21:33:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:33:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:33:11 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 STARTED - Verify Double Click Functionality
+2026-01-22 21:33:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 21:33:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Performed double click action
+2026-01-22 21:33:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Double click message is displayed as expected
+2026-01-22 21:33:12 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_036 COMPLETED - Verify Double Click Functionality
+2026-01-22 21:33:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:33:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:33:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_037 STARTED - Verify Right Click Functionality
+2026-01-22 21:33:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 21:33:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Performed right click action
+2026-01-22 21:33:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Right click message is displayed as expected
+2026-01-22 21:33:30 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_037 COMPLETED - Verify Right Click Functionality
+2026-01-22 21:34:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:34:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:34:00 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_038 STARTED - Verify Click Me Button Functionality
+2026-01-22 21:34:01 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Buttons page
+2026-01-22 21:34:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Click Me button
+2026-01-22 21:34:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Click Me message is displayed as expected
+2026-01-22 21:34:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_038 COMPLETED - Verify Click Me Button Functionality
+2026-01-22 21:34:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:34:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:34:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 STARTED - Verify Home Link Opens In New Tab
+2026-01-22 21:34:26 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 21:34:29 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Switched to new tab and captured title: 
+2026-01-22 21:34:29 [main] WARN  com.demoqa.webautomation.pagebase.TestBase - Retrying test: verifyLinkOpenInNewTab | Attempt: 2 of 3
+2026-01-22 21:34:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:34:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:34:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 STARTED - Verify Home Link Opens In New Tab
+2026-01-22 21:34:59 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 21:35:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Switched to new tab and captured title: DEMOQA
+2026-01-22 21:35:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Home link opened in new tab successfully and title matched
+2026-01-22 21:35:02 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_039 COMPLETED - Verify Home Link Opens In New Tab
+2026-01-22 21:35:10 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:35:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:35:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_041 STARTED - Verify Created Link Response
+2026-01-22 21:35:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Links page
+2026-01-22 21:35:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Created Link Response: Link has responded with staus 201 and status text Created
+2026-01-22 21:35:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Created link response verified successfully
+2026-01-22 21:35:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_041 COMPLETED - Verify Created Link Response
+2026-01-22 21:36:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:36:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:36:13 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_048 STARTED - Verify Valid Image Is Loaded
+2026-01-22 21:36:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Broken Links - Images page
+2026-01-22 21:36:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Valid Image Loaded Status: true
+2026-01-22 21:36:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Valid image loaded successfully
+2026-01-22 21:36:14 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_048 COMPLETED - Verify Valid Image Is Loaded
+2026-01-22 21:36:31 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:36:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:36:32 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_052 STARTED - Verify Download Functionality
+2026-01-22 21:36:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Upload and Download page
+2026-01-22 21:36:33 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Clicked on Download button
+2026-01-22 21:36:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Downloaded file renamed to: Downloaded_20260122_213634.jpeg
+2026-01-22 21:36:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File present in downloads folder: true
+2026-01-22 21:36:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File downloaded and verified successfully
+2026-01-22 21:36:34 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_052 COMPLETED - Verify Download Functionality
+2026-01-22 21:37:06 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_053 STARTED - Verify Upload File Functionality
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Upload and Download page
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Uploading file from path: D:\QA\DemoQA\downloads\Downloaded_20260118_193135.jpeg
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Uploaded File Status Message: C:\fakepath\Downloaded_20260118_193135.jpeg
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - File uploaded successfully and file name verified
+2026-01-22 21:37:07 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_053 COMPLETED - Verify Upload File Functionality
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - ===== Initializing Home Page before test execution =====
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Elements module
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_054 STARTED - Verify Random Id Text
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Navigated to Dynamic Properties page
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Random Id Text Displayed: true
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - Random Id text verified successfully
+2026-01-22 21:37:39 [main] INFO  com.demoqa.webautomation.pagebase.TestBase - TC_054 COMPLETED - Verify Random Id Text

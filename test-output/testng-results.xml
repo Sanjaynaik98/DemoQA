@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="56" total="57" passed="1" failed="0" skipped="0">
+<testng-results retried="1" ignored="39" total="67" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-21T21:07:07 IST" name="DemoQA Test Suite" finished-at="2026-01-21T21:07:19 IST" duration-ms="11901">
+  <suite started-at="2026-01-22T21:23:03 IST" name="DemoQA Smoke Test Suite" finished-at="2026-01-22T21:37:40 IST" duration-ms="877209">
     <groups>
+      <group name="filehandling">
+        <method signature="ElementsFunctionalityTest.verifyDownloadFunctionality()[pri:52, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDownloadFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyUploadFileFunctionality()[pri:53, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyUploadFileFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- filehandling -->
+      <group name="images">
+        <method signature="ElementsFunctionalityTest.verifyValidImage()[pri:48, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyValidImage" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- images -->
+      <group name="buttons">
+        <method signature="ElementsFunctionalityTest.verifyDoubleClickFunctionality()[pri:36, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDoubleClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyRightClickFunctionality()[pri:37, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRightClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyClickMeFunctionality()[pri:38, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyClickMeFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- buttons -->
+      <group name="textbox">
+        <method signature="ElementsFunctionalityTest.verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyFormSubmissionWithValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- textbox -->
+      <group name="webtable">
+        <method signature="ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm()[pri:26, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddButtonOpensRegistrationForm" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddingNewRecordWithAllValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyEditButtonOpensRecordWithCorrectData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDeleteExistingRecord(java.util.HashMap)[pri:30, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDeleteExistingRecord" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- webtable -->
+      <group name="regression">
+        <method signature="ElementsFunctionalityTest.verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyFormSubmissionWithValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyHomeFolderExpandCollapse()[pri:6, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeFolderExpandCollapse" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes()[pri:7, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeSelectsAllCheckboxes" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyYesRadioButtonSelected()[pri:24, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyYesRadioButtonSelected" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm()[pri:26, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddButtonOpensRegistrationForm" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddingNewRecordWithAllValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyEditButtonOpensRecordWithCorrectData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDeleteExistingRecord(java.util.HashMap)[pri:30, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDeleteExistingRecord" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifySearchWithValidFirstName" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDoubleClickFunctionality()[pri:36, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDoubleClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyRightClickFunctionality()[pri:37, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRightClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyClickMeFunctionality()[pri:38, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyClickMeFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyLinkOpenInNewTab()[pri:39, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyLinkOpenInNewTab" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode()[pri:41, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyCreatedLinkAndGetResponseCode" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyValidImage()[pri:48, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyValidImage" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDownloadFunctionality()[pri:52, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDownloadFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyUploadFileFunctionality()[pri:53, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyUploadFileFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyRandomIdText()[pri:54, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRandomIdText" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- regression -->
+      <group name="checkbox">
+        <method signature="ElementsFunctionalityTest.verifyHomeFolderExpandCollapse()[pri:6, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeFolderExpandCollapse" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes()[pri:7, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeSelectsAllCheckboxes" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- checkbox -->
+      <group name="smoke">
+        <method signature="ElementsFunctionalityTest.verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyFormSubmissionWithValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyHomeFolderExpandCollapse()[pri:6, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeFolderExpandCollapse" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes()[pri:7, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyHomeSelectsAllCheckboxes" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyYesRadioButtonSelected()[pri:24, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyYesRadioButtonSelected" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm()[pri:26, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddButtonOpensRegistrationForm" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyAddingNewRecordWithAllValidData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyEditButtonOpensRecordWithCorrectData" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDeleteExistingRecord(java.util.HashMap)[pri:30, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDeleteExistingRecord" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifySearchWithValidFirstName" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDoubleClickFunctionality()[pri:36, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDoubleClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyRightClickFunctionality()[pri:37, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRightClickFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyClickMeFunctionality()[pri:38, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyClickMeFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyLinkOpenInNewTab()[pri:39, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyLinkOpenInNewTab" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode()[pri:41, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyCreatedLinkAndGetResponseCode" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyValidImage()[pri:48, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyValidImage" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyDownloadFunctionality()[pri:52, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyDownloadFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyUploadFileFunctionality()[pri:53, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyUploadFileFunctionality" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyRandomIdText()[pri:54, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRandomIdText" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- smoke -->
+      <group name="dynamic">
+        <method signature="ElementsFunctionalityTest.verifyRandomIdText()[pri:54, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyRandomIdText" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- dynamic -->
+      <group name="links">
+        <method signature="ElementsFunctionalityTest.verifyLinkOpenInNewTab()[pri:39, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyLinkOpenInNewTab" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+        <method signature="ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode()[pri:41, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyCreatedLinkAndGetResponseCode" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- links -->
+      <group name="api">
+        <method signature="ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode()[pri:41, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyCreatedLinkAndGetResponseCode" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- api -->
+      <group name="searchBox">
+        <method signature="ElementsFunctionalityTest.verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifySearchWithValidFirstName" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- searchBox -->
+      <group name="radio">
+        <method signature="ElementsFunctionalityTest.verifyYesRadioButtonSelected()[pri:24, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" name="verifyYesRadioButtonSelected" class="com.demoqa.webautomation.testcases.ElementsFunctionalityTest"/>
+      </group> <!-- radio -->
     </groups>
-    <test started-at="2026-01-21T21:07:07 IST" name="Login Page Tests" finished-at="2026-01-21T21:07:19 IST" duration-ms="11901">
+    <test started-at="2026-01-22T21:23:03 IST" name="Smoke Tests" finished-at="2026-01-22T21:37:40 IST" duration-ms="877209">
       <class name="com.demoqa.webautomation.testcases.ElementsFunctionalityTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c4ed84]" started-at="2026-01-21T21:07:07 IST" name="setUp" finished-at="2026-01-21T21:07:17 IST" duration-ms="10231" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:03 IST" name="setUp" finished-at="2026-01-22T21:23:13 IST" duration-ms="9745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +104,916 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c4ed84]" started-at="2026-01-21T21:07:17 IST" name="setUpHomePage" finished-at="2026-01-21T21:07:18 IST" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:13 IST" name="setUpHomePage" finished-at="2026-01-22T21:23:24 IST" duration-ms="11214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHomePage -->
-        <test-method signature="verifyUploadFileFunctionality()[pri:53, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c4ed84]" started-at="2026-01-21T21:07:18 IST" name="verifyUploadFileFunctionality" description="TC_053: Verify file upload functionality" finished-at="2026-01-21T21:07:18 IST" duration-ms="375" status="PASS">
+        <test-method signature="verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:24 IST" name="verifyFormSubmissionWithValidData" description="TC_001: Verify form submission with all valid data fields" data-provider="validFormData" finished-at="2026-01-22T21:23:28 IST" duration-ms="3873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullName=Sanjay Naik, permanentAddress=Village Naik Nagar, Kalaburagi, Karnataka, India, email=sanjay.naik@testmail.com, currentAddress=No. 45, MG Road, Bengaluru, Karnataka, India}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormSubmissionWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:28 IST" name="tearDown" finished-at="2026-01-22T21:23:29 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:29 IST" name="setUp" finished-at="2026-01-22T21:23:47 IST" duration-ms="17996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:47 IST" name="setUpHomePage" finished-at="2026-01-22T21:23:47 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:47 IST" name="verifyFormSubmissionWithValidData" description="TC_001: Verify form submission with all valid data fields" data-provider="validFormData" finished-at="2026-01-22T21:23:51 IST" duration-ms="3286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullName=Anita Sharma, permanentAddress=Civil Lines, Jaipur, Rajasthan, India, email=anita.sharma@testmail.com, currentAddress=Flat 12B, Andheri West, Mumbai, Maharashtra, India}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormSubmissionWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:51 IST" name="tearDown" finished-at="2026-01-22T21:23:51 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:23:51 IST" name="setUp" finished-at="2026-01-22T21:24:26 IST" duration-ms="34473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:26 IST" name="setUpHomePage" finished-at="2026-01-22T21:24:26 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyFormSubmissionWithValidData(java.util.HashMap)[pri:1, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:26 IST" name="verifyFormSubmissionWithValidData" description="TC_001: Verify form submission with all valid data fields" data-provider="validFormData" finished-at="2026-01-22T21:24:29 IST" duration-ms="2495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullName=Rahul Verma, permanentAddress=Rajendra Nagar, Patna, Bihar, India, email=rahul.verma@testmail.com, currentAddress=Sector 62, Noida, Uttar Pradesh, India}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormSubmissionWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:29 IST" name="tearDown" finished-at="2026-01-22T21:24:29 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:29 IST" name="setUp" finished-at="2026-01-22T21:24:36 IST" duration-ms="7121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:36 IST" name="setUpHomePage" finished-at="2026-01-22T21:24:57 IST" duration-ms="20249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyHomeFolderExpandCollapse()[pri:6, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:24:57 IST" name="verifyHomeFolderExpandCollapse" description="TC_006: Verify Home folder expand and collapse functionality" finished-at="2026-01-22T21:25:08 IST" duration-ms="11274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeFolderExpandCollapse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:08 IST" name="tearDown" finished-at="2026-01-22T21:25:08 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:08 IST" name="setUp" finished-at="2026-01-22T21:25:36 IST" duration-ms="27891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:36 IST" name="setUpHomePage" finished-at="2026-01-22T21:25:37 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyHomeSelectsAllCheckboxes()[pri:7, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:37 IST" name="verifyHomeSelectsAllCheckboxes" description="TC_007: Verify clicking Home checkbox selects all child checkboxes" finished-at="2026-01-22T21:25:38 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeSelectsAllCheckboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:38 IST" name="tearDown" finished-at="2026-01-22T21:25:38 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:25:38 IST" name="setUp" finished-at="2026-01-22T21:26:00 IST" duration-ms="21541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:00 IST" name="setUpHomePage" finished-at="2026-01-22T21:26:00 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyYesRadioButtonSelected()[pri:24, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:00 IST" name="verifyYesRadioButtonSelected" description="TC_024: Verify Yes radio button can be selected successfully" finished-at="2026-01-22T21:26:01 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYesRadioButtonSelected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:01 IST" name="tearDown" finished-at="2026-01-22T21:26:02 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:02 IST" name="setUp" finished-at="2026-01-22T21:26:21 IST" duration-ms="18906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:21 IST" name="setUpHomePage" finished-at="2026-01-22T21:26:21 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyAddButtonOpensRegistrationForm()[pri:26, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:21 IST" name="verifyAddButtonOpensRegistrationForm" description="TC_026: Verify Add button opens registration form with all required fields" finished-at="2026-01-22T21:26:23 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddButtonOpensRegistrationForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:23 IST" name="tearDown" finished-at="2026-01-22T21:26:24 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:24 IST" name="setUp" finished-at="2026-01-22T21:26:31 IST" duration-ms="7115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:31 IST" name="setUpHomePage" finished-at="2026-01-22T21:26:59 IST" duration-ms="28538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:26:59 IST" name="verifyAddingNewRecordWithAllValidData" description="TC_027: Verify adding a new record to web table with all valid data" data-provider="registrationFormValidData" finished-at="2026-01-22T21:27:06 IST" duration-ms="6367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Sanjay, lastName=Naik, salary=45000, department=QA Automation, email=sanjay.naik@testmail.com, age=25}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingNewRecordWithAllValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:06 IST" name="tearDown" finished-at="2026-01-22T21:27:06 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:06 IST" name="setUp" finished-at="2026-01-22T21:27:29 IST" duration-ms="22821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:29 IST" name="setUpHomePage" finished-at="2026-01-22T21:27:29 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:29 IST" name="verifyAddingNewRecordWithAllValidData" description="TC_027: Verify adding a new record to web table with all valid data" data-provider="registrationFormValidData" finished-at="2026-01-22T21:27:34 IST" duration-ms="4740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Anita, lastName=Sharma, salary=52000, department=Finance, email=anita.sharma@testmail.com, age=28}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingNewRecordWithAllValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:34 IST" name="tearDown" finished-at="2026-01-22T21:27:35 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:27:35 IST" name="setUp" finished-at="2026-01-22T21:28:03 IST" duration-ms="28338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:03 IST" name="setUpHomePage" finished-at="2026-01-22T21:28:03 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:03 IST" name="verifyAddingNewRecordWithAllValidData" description="TC_027: Verify adding a new record to web table with all valid data" data-provider="registrationFormValidData" finished-at="2026-01-22T21:28:09 IST" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Rahul, lastName=Verma, salary=60000, department=IT Support, email=rahul.verma@testmail.com, age=30}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingNewRecordWithAllValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:09 IST" name="tearDown" finished-at="2026-01-22T21:28:09 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:09 IST" name="setUp" finished-at="2026-01-22T21:28:37 IST" duration-ms="27919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:37 IST" name="setUpHomePage" finished-at="2026-01-22T21:28:38 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyAddingNewRecordWithAllValidData(java.util.HashMap)[pri:27, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:38 IST" name="verifyAddingNewRecordWithAllValidData" description="TC_027: Verify adding a new record to web table with all valid data" data-provider="registrationFormValidData" finished-at="2026-01-22T21:28:43 IST" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Priya, lastName=Patil, salary=48000, department=HR, email=priya.patil@testmail.com, age=26}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingNewRecordWithAllValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:43 IST" name="tearDown" finished-at="2026-01-22T21:28:43 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:43 IST" name="setUp" finished-at="2026-01-22T21:28:50 IST" duration-ms="7108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:28:50 IST" name="setUpHomePage" finished-at="2026-01-22T21:29:06 IST" duration-ms="15554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:06 IST" name="verifyEditButtonOpensRecordWithCorrectData" description="TC_028: Verify Edit button opens the correct record with accurate data" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:29:07 IST" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOpensRecordWithCorrectData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:07 IST" name="tearDown" finished-at="2026-01-22T21:29:08 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:08 IST" name="setUp" finished-at="2026-01-22T21:29:31 IST" duration-ms="23062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:31 IST" name="setUpHomePage" finished-at="2026-01-22T21:29:31 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:31 IST" name="verifyEditButtonOpensRecordWithCorrectData" description="TC_028: Verify Edit button opens the correct record with accurate data" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:29:34 IST" duration-ms="2472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOpensRecordWithCorrectData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:34 IST" name="tearDown" finished-at="2026-01-22T21:29:34 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:29:34 IST" name="setUp" finished-at="2026-01-22T21:30:09 IST" duration-ms="35307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:09 IST" name="setUpHomePage" finished-at="2026-01-22T21:30:10 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyEditButtonOpensRecordWithCorrectData(java.util.HashMap)[pri:28, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:10 IST" name="verifyEditButtonOpensRecordWithCorrectData" description="TC_028: Verify Edit button opens the correct record with accurate data" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:30:11 IST" duration-ms="1385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOpensRecordWithCorrectData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:11 IST" name="tearDown" finished-at="2026-01-22T21:30:12 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:12 IST" name="setUp" finished-at="2026-01-22T21:30:41 IST" duration-ms="29134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:41 IST" name="setUpHomePage" finished-at="2026-01-22T21:30:41 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyDeleteExistingRecord(java.util.HashMap)[pri:30, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:30:41 IST" name="verifyDeleteExistingRecord" description="TC_030: Verify deleting an existing record from the web table" data-provider="validName" finished-at="2026-01-22T21:31:04 IST" duration-ms="22253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Alden}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteExistingRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:04 IST" name="tearDown" finished-at="2026-01-22T21:31:04 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:04 IST" name="setUp" finished-at="2026-01-22T21:31:11 IST" duration-ms="7418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:11 IST" name="setUpHomePage" finished-at="2026-01-22T21:31:27 IST" duration-ms="15212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:27 IST" name="verifySearchWithValidFirstName" description="TC_031: Verify search functionality with valid first name" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:31:28 IST" duration-ms="1394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Cierra, lastName=Vega, salary=10000, department=Insurance, age=39, email=cierra@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:28 IST" name="tearDown" finished-at="2026-01-22T21:31:29 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:29 IST" name="setUp" finished-at="2026-01-22T21:31:36 IST" duration-ms="7184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:36 IST" name="setUpHomePage" finished-at="2026-01-22T21:31:57 IST" duration-ms="21236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:57 IST" name="verifySearchWithValidFirstName" description="TC_031: Verify search functionality with valid first name" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:31:59 IST" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Alden, lastName=Cantrell, salary=12000, department=Compliance, age=45, email=alden@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:59 IST" name="tearDown" finished-at="2026-01-22T21:31:59 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:31:59 IST" name="setUp" finished-at="2026-01-22T21:32:31 IST" duration-ms="32156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:32:31 IST" name="setUpHomePage" finished-at="2026-01-22T21:32:32 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifySearchWithValidFirstName(java.util.HashMap)[pri:31, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:32:32 IST" name="verifySearchWithValidFirstName" description="TC_031: Verify search functionality with valid first name" data-provider="preDefinedWebTableData" finished-at="2026-01-22T21:32:34 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Kierra, lastName=Gentry, salary=2000, department=Legal, age=29, email=kierra@example.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:32:34 IST" name="tearDown" finished-at="2026-01-22T21:32:34 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:32:34 IST" name="setUp" finished-at="2026-01-22T21:33:10 IST" duration-ms="36253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:10 IST" name="setUpHomePage" finished-at="2026-01-22T21:33:11 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyDoubleClickFunctionality()[pri:36, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:11 IST" name="verifyDoubleClickFunctionality" description="TC_036: Verify double click functionality on button" finished-at="2026-01-22T21:33:12 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDoubleClickFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:12 IST" name="tearDown" finished-at="2026-01-22T21:33:13 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:13 IST" name="setUp" finished-at="2026-01-22T21:33:29 IST" duration-ms="16292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:29 IST" name="setUpHomePage" finished-at="2026-01-22T21:33:29 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyRightClickFunctionality()[pri:37, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:29 IST" name="verifyRightClickFunctionality" description="TC_037: Verify right click functionality on button" finished-at="2026-01-22T21:33:30 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightClickFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:30 IST" name="tearDown" finished-at="2026-01-22T21:33:31 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:33:31 IST" name="setUp" finished-at="2026-01-22T21:34:00 IST" duration-ms="28730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:00 IST" name="setUpHomePage" finished-at="2026-01-22T21:34:00 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyClickMeFunctionality()[pri:38, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:00 IST" name="verifyClickMeFunctionality" description="TC_038: Verify Click Me button functionality" finished-at="2026-01-22T21:34:02 IST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickMeFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:02 IST" name="tearDown" finished-at="2026-01-22T21:34:02 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:02 IST" name="setUp" finished-at="2026-01-22T21:34:10 IST" duration-ms="7509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:10 IST" name="setUpHomePage" finished-at="2026-01-22T21:34:26 IST" duration-ms="16186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method retried="true" signature="verifyLinkOpenInNewTab()[pri:39, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:26 IST" name="verifyLinkOpenInNewTab" description="TC_039: Verify Home link opens in new tab" finished-at="2026-01-22T21:34:29 IST" duration-ms="3260" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAIL: Home link is not opened in new tab / title mismatch expected [DEMOQA] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAIL: Home link is not opened in new tab / title mismatch expected [DEMOQA] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab(ElementsFunctionalityTest.java:1037)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkOpenInNewTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:29 IST" name="tearDown" finished-at="2026-01-22T21:34:30 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:30 IST" name="setUp" finished-at="2026-01-22T21:34:59 IST" duration-ms="29117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:59 IST" name="setUpHomePage" finished-at="2026-01-22T21:34:59 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyLinkOpenInNewTab()[pri:39, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:34:59 IST" name="verifyLinkOpenInNewTab" description="TC_039: Verify Home link opens in new tab" finished-at="2026-01-22T21:35:02 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkOpenInNewTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:02 IST" name="tearDown" finished-at="2026-01-22T21:35:03 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:03 IST" name="setUp" finished-at="2026-01-22T21:35:10 IST" duration-ms="7367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:10 IST" name="setUpHomePage" finished-at="2026-01-22T21:35:31 IST" duration-ms="20585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyCreatedLinkAndGetResponseCode()[pri:41, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:31 IST" name="verifyCreatedLinkAndGetResponseCode" description="TC_041: Verify Created link returns 201 response code" finished-at="2026-01-22T21:35:33 IST" duration-ms="2171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedLinkAndGetResponseCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:33 IST" name="tearDown" finished-at="2026-01-22T21:35:33 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:35:33 IST" name="setUp" finished-at="2026-01-22T21:36:13 IST" duration-ms="39670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:13 IST" name="setUpHomePage" finished-at="2026-01-22T21:36:13 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyValidImage()[pri:48, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:13 IST" name="verifyValidImage" description="TC_048: Verify valid image loads successfully" finished-at="2026-01-22T21:36:14 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidImage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:14 IST" name="tearDown" finished-at="2026-01-22T21:36:14 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:14 IST" name="setUp" finished-at="2026-01-22T21:36:31 IST" duration-ms="17235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:31 IST" name="setUpHomePage" finished-at="2026-01-22T21:36:32 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyDownloadFunctionality()[pri:52, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:32 IST" name="verifyDownloadFunctionality" description="TC_052: Verify file download functionality" finished-at="2026-01-22T21:36:34 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:34 IST" name="tearDown" finished-at="2026-01-22T21:36:35 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:36:35 IST" name="setUp" finished-at="2026-01-22T21:37:06 IST" duration-ms="31707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:06 IST" name="setUpHomePage" finished-at="2026-01-22T21:37:07 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyUploadFileFunctionality()[pri:53, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:07 IST" name="verifyUploadFileFunctionality" description="TC_053: Verify file upload functionality" finished-at="2026-01-22T21:37:07 IST" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUploadFileFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@c4ed84]" started-at="2026-01-21T21:07:18 IST" name="tearDown" finished-at="2026-01-21T21:07:19 IST" duration-ms="375" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:07 IST" name="tearDown" finished-at="2026-01-22T21:37:08 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:08 IST" name="setUp" finished-at="2026-01-22T21:37:39 IST" duration-ms="30663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:39 IST" name="setUpHomePage" finished-at="2026-01-22T21:37:39 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="verifyRandomIdText()[pri:54, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:39 IST" name="verifyRandomIdText" description="TC_054: Verify random ID text is displayed on dynamic properties page" finished-at="2026-01-22T21:37:39 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRandomIdText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.webautomation.testcases.ElementsFunctionalityTest@5a9d6f02]" started-at="2026-01-22T21:37:39 IST" name="tearDown" finished-at="2026-01-22T21:37:40 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoqa.webautomation.testcases.ElementsFunctionalityTest -->
-    </test> <!-- Login Page Tests -->
-  </suite> <!-- DemoQA Test Suite -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- DemoQA Smoke Test Suite -->
 </testng-results>

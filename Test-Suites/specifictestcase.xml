@@ -13,7 +13,7 @@
         <classes>
             <class name="com.demoqa.webautomation.testcases.ElementsFunctionalityTest">
                 <methods>
-                    <include name="verifyUploadFileFunctionality"/>
+                    <include name="verifyAddingNewRecordWithAllValidData"/>
                 </methods>
             </class>
         </classes>

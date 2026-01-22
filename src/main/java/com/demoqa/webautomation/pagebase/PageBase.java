@@ -172,14 +172,28 @@ public class PageBase {
 
 	/** Scroll to element and click */
 	public void scrollAndClick(WebElement element) {
-		try {
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-			wait.until(ExpectedConditions.elementToBeClickable(element));
-			element.click();
-		} catch (Exception e) {
-			System.out.println("Error while scrolling/clicking: " + e.getMessage());
-		}
+	    try {
+	        // Scroll element to center (avoids sticky footer ads)
+	        ((JavascriptExecutor) driver).executeScript(
+	                "arguments[0].scrollIntoView({block:'center', inline:'nearest'});",
+	                element
+	        );
+
+	        wait.until(ExpectedConditions.visibilityOf(element));
+	        wait.until(ExpectedConditions.elementToBeClickable(element));
+
+	        try {
+	            element.click(); // normal click
+	        } catch (org.openqa.selenium.ElementClickInterceptedException e) {
+	            // fallback JS click if intercepted by ads/overlay
+	            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+	        }
+
+	    } catch (Exception e) {
+	        throw new RuntimeException("Failed to click element: " + e.getMessage(), e);
+	    }
 	}
+
 
 	public void scrollAndClick(By locator) {
 		try {

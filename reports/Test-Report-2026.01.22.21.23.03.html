@@ -1,0 +1,4841 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Functional Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 22, 2026 09:23:03 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">webtable</a><a class="dropdown-item" href="#">smoke</a><a class="dropdown-item" href="#">dynamic</a><a class="dropdown-item" href="#">api</a><a class="dropdown-item" href="#">searchBox</a><a class="dropdown-item" href="#">filehandling</a><a class="dropdown-item" href="#">images</a><a class="dropdown-item" href="#">textbox</a><a class="dropdown-item" href="#">links</a><a class="dropdown-item" href="#">radio</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">buttons</a><a class="dropdown-item" href="#">checkbox</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="textbox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</p>
+            <p class="text-sm">
+              <span>9:23:24 pm</span> / <span>00:00:23:104</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:23:24 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:23:47 pm</span>
+<span class='badge badge-default'>00:00:23:104</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">textbox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:24 pm</td>
+        <td>
+          Test Started: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:24 pm</td>
+        <td>
+          TC_001 STARTED: Verify Form Submission With Valid Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:25 pm</td>
+        <td>
+          Navigated to Text Box section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:25 pm</td>
+        <td>
+          Entered Full Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:26 pm</td>
+        <td>
+          Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:26 pm</td>
+        <td>
+          Entered Current Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:27 pm</td>
+        <td>
+          Entered Permanent Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:28 pm</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:28 pm</td>
+        <td>
+          Validating submitted form output
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:28 pm</td>
+        <td>
+          TC_001 PASSED: Form submitted successfully with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:28 pm</td>
+        <td>
+          Test Case Passed: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:47 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:47 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="textbox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</p>
+            <p class="text-sm">
+              <span>9:23:47 pm</span> / <span>00:00:38:743</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:23:47 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:24:26 pm</span>
+<span class='badge badge-default'>00:00:38:743</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">textbox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:47 pm</td>
+        <td>
+          Test Started: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:47 pm</td>
+        <td>
+          TC_001 STARTED: Verify Form Submission With Valid Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:48 pm</td>
+        <td>
+          Navigated to Text Box section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:49 pm</td>
+        <td>
+          Entered Full Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:49 pm</td>
+        <td>
+          Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:50 pm</td>
+        <td>
+          Entered Current Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:50 pm</td>
+        <td>
+          Entered Permanent Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:50 pm</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:50 pm</td>
+        <td>
+          Validating submitted form output
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:51 pm</td>
+        <td>
+          TC_001 PASSED: Form submitted successfully with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:51 pm</td>
+        <td>
+          Test Case Passed: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:26 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:26 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="textbox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</p>
+            <p class="text-sm">
+              <span>9:24:26 pm</span> / <span>00:00:30:405</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:24:26 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:24:57 pm</span>
+<span class='badge badge-default'>00:00:30:405</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">textbox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:26 pm</td>
+        <td>
+          Test Started: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:26 pm</td>
+        <td>
+          TC_001 STARTED: Verify Form Submission With Valid Data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:27 pm</td>
+        <td>
+          Navigated to Text Box section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:27 pm</td>
+        <td>
+          Entered Full Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:27 pm</td>
+        <td>
+          Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:28 pm</td>
+        <td>
+          Entered Current Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:28 pm</td>
+        <td>
+          Entered Permanent Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:28 pm</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:28 pm</td>
+        <td>
+          Validating submitted form output
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:29 pm</td>
+        <td>
+          TC_001 PASSED: Form submitted successfully with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:29 pm</td>
+        <td>
+          Test Case Passed: verifyFormSubmissionWithValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:36 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:57 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="checkbox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse</p>
+            <p class="text-sm">
+              <span>9:24:57 pm</span> / <span>00:00:40:050</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse</h5>
+<span class='badge badge-success'>01.22.2026 9:24:57 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:25:37 pm</span>
+<span class='badge badge-default'>00:00:40:050</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">checkbox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:57 pm</td>
+        <td>
+          Test Started: verifyHomeFolderExpandCollapse
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:57 pm</td>
+        <td>
+          TC_006 STARTED - Verify Home Folder Expand Collapse
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:57 pm</td>
+        <td>
+          Navigated to Check Box section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:57 pm</td>
+        <td>
+          Expanded Home folder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:58 pm</td>
+        <td>
+          Checked Desktop visibility after expand: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:58 pm</td>
+        <td>
+          Collapsed Home folder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:08 pm</td>
+        <td>
+          Checked Desktop invisibility after collapse: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:08 pm</td>
+        <td>
+          TC_006 PASSED - Home folder expand & collapse verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:08 pm</td>
+        <td>
+          Test Case Passed: verifyHomeFolderExpandCollapse
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:36 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:37 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="checkbox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes</p>
+            <p class="text-sm">
+              <span>9:25:37 pm</span> / <span>00:00:23:515</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes</h5>
+<span class='badge badge-success'>01.22.2026 9:25:37 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:26:00 pm</span>
+<span class='badge badge-default'>00:00:23:515</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">checkbox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:37 pm</td>
+        <td>
+          Test Started: verifyHomeSelectsAllCheckboxes
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:37 pm</td>
+        <td>
+          TC_007 STARTED - Verify clicking Home selects all checkboxes
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:37 pm</td>
+        <td>
+          Navigated to Check Box section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:37 pm</td>
+        <td>
+          Clicked on Home checkbox
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:38 pm</td>
+        <td>
+          Verification result for all checkboxes selected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:38 pm</td>
+        <td>
+          TC_007 PASSED - Home checkbox selects all child checkboxes successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:38 pm</td>
+        <td>
+          Test Case Passed: verifyHomeSelectsAllCheckboxes
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:00 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:00 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="radio regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected</p>
+            <p class="text-sm">
+              <span>9:26:00 pm</span> / <span>00:00:21:067</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected</h5>
+<span class='badge badge-success'>01.22.2026 9:26:00 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:26:21 pm</span>
+<span class='badge badge-default'>00:00:21:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">radio</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:00 pm</td>
+        <td>
+          Test Started: verifyYesRadioButtonSelected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:00 pm</td>
+        <td>
+          TC_024 STARTED - Verify Yes radio button selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:00 pm</td>
+        <td>
+          Navigated to Radio Button section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:01 pm</td>
+        <td>
+          Clicked on Yes radio button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:01 pm</td>
+        <td>
+          UI confirmation message: Yes
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:01 pm</td>
+        <td>
+          TC_024 PASSED - Yes radio button selected successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:01 pm</td>
+        <td>
+          Test Case Passed: verifyYesRadioButtonSelected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:21 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:21 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm</p>
+            <p class="text-sm">
+              <span>9:26:21 pm</span> / <span>00:00:38:013</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm</h5>
+<span class='badge badge-success'>01.22.2026 9:26:21 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:26:59 pm</span>
+<span class='badge badge-default'>00:00:38:013</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:21 pm</td>
+        <td>
+          Test Started: verifyAddButtonOpensRegistrationForm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:21 pm</td>
+        <td>
+          TC_026 STARTED - Verify Add button opens Registration form
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:22 pm</td>
+        <td>
+          Navigated to Web Tables section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:22 pm</td>
+        <td>
+          Clicked on Add New Record button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:22 pm</td>
+        <td>
+          Registration form is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Registration title is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          First Name field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Last Name field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Email field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Age field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Salary field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Department field is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Submit button is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          TC_026 PASSED - Registration form opened successfully with all fields visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:23 pm</td>
+        <td>
+          Test Case Passed: verifyAddButtonOpensRegistrationForm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:31 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:59 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</p>
+            <p class="text-sm">
+              <span>9:26:59 pm</span> / <span>00:00:30:056</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:26:59 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:27:29 pm</span>
+<span class='badge badge-default'>00:00:30:056</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:59 pm</td>
+        <td>
+          Test Started: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:59 pm</td>
+        <td>
+          TC_027 STARTED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:00 pm</td>
+        <td>
+          Navigated to Web Tables section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Clicked on Add New Record button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Entering Registration Form details:
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          First Name: Sanjay
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Last Name: Naik
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Email: sanjay.naik@testmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Age: 25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Salary: 45000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:02 pm</td>
+        <td>
+          Department: QA Automation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:05 pm</td>
+        <td>
+          Clicked on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:05 pm</td>
+        <td>
+          Validating if newly added record is present in Web Table
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:06 pm</td>
+        <td>
+          Record successfully found in Web Table for: Sanjay Naik
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:06 pm</td>
+        <td>
+          TC_027 PASSED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:06 pm</td>
+        <td>
+          Test Case Passed: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:29 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:29 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</p>
+            <p class="text-sm">
+              <span>9:27:29 pm</span> / <span>00:00:33:932</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:27:29 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:28:03 pm</span>
+<span class='badge badge-default'>00:00:33:932</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:29 pm</td>
+        <td>
+          Test Started: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:29 pm</td>
+        <td>
+          TC_027 STARTED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Navigated to Web Tables section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Clicked on Add New Record button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Entering Registration Form details:
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          First Name: Anita
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Last Name: Sharma
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Email: anita.sharma@testmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Age: 28
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Salary: 52000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:30 pm</td>
+        <td>
+          Department: Finance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:33 pm</td>
+        <td>
+          Clicked on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:33 pm</td>
+        <td>
+          Validating if newly added record is present in Web Table
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:34 pm</td>
+        <td>
+          Record successfully found in Web Table for: Anita Sharma
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:34 pm</td>
+        <td>
+          TC_027 PASSED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:34 pm</td>
+        <td>
+          Test Case Passed: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:03 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:03 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</p>
+            <p class="text-sm">
+              <span>9:28:03 pm</span> / <span>00:00:34:482</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:28:03 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:28:38 pm</span>
+<span class='badge badge-default'>00:00:34:482</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:03 pm</td>
+        <td>
+          Test Started: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:03 pm</td>
+        <td>
+          TC_027 STARTED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Navigated to Web Tables section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Clicked on Add New Record button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Entering Registration Form details:
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          First Name: Rahul
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Last Name: Verma
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Email: rahul.verma@testmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Age: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Salary: 60000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:05 pm</td>
+        <td>
+          Department: IT Support
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:08 pm</td>
+        <td>
+          Clicked on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:08 pm</td>
+        <td>
+          Validating if newly added record is present in Web Table
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:09 pm</td>
+        <td>
+          Record successfully found in Web Table for: Rahul Verma
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:09 pm</td>
+        <td>
+          TC_027 PASSED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:09 pm</td>
+        <td>
+          Test Case Passed: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:37 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:38 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</p>
+            <p class="text-sm">
+              <span>9:28:38 pm</span> / <span>00:00:28:260</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</h5>
+<span class='badge badge-success'>01.22.2026 9:28:38 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:29:06 pm</span>
+<span class='badge badge-default'>00:00:28:260</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:38 pm</td>
+        <td>
+          Test Started: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:38 pm</td>
+        <td>
+          TC_027 STARTED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:38 pm</td>
+        <td>
+          Navigated to Web Tables section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Clicked on Add New Record button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Entering Registration Form details:
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          First Name: Priya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Last Name: Patil
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Email: priya.patil@testmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Age: 26
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Salary: 48000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 pm</td>
+        <td>
+          Department: HR
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:42 pm</td>
+        <td>
+          Clicked on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:42 pm</td>
+        <td>
+          Validating if newly added record is present in Web Table
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:43 pm</td>
+        <td>
+          Record successfully found in Web Table for: Priya Patil
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:43 pm</td>
+        <td>
+          TC_027 PASSED - Verify adding new record with valid data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:43 pm</td>
+        <td>
+          Test Case Passed: verifyAddingNewRecordWithAllValidData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:50 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</p>
+            <p class="text-sm">
+              <span>9:29:06 pm</span> / <span>00:00:25:215</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</h5>
+<span class='badge badge-success'>01.22.2026 9:29:06 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:29:31 pm</span>
+<span class='badge badge-default'>00:00:25:215</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          Test Started: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          TC_028 STARTED - Verify Edit button opens record with correct data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:06 pm</td>
+        <td>
+          Clicking Edit for record with First Name: Cierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Validating Registration Form is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Validating Registration Form title is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Fetching values from Registration Form
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Validating form data against expected values
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected First Name: Cierra | Actual: Cierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected Last Name: Vega | Actual: Vega
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected Email: cierra@example.com | Actual: cierra@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected Age: 39 | Actual: 39
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected Salary: 10000 | Actual: 10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Expected Department: Insurance | Actual: Insurance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          TC_028 COMPLETED - Edit button opens correct record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:07 pm</td>
+        <td>
+          Test Case Passed: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</p>
+            <p class="text-sm">
+              <span>9:29:31 pm</span> / <span>00:00:38:651</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</h5>
+<span class='badge badge-success'>01.22.2026 9:29:31 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:30:10 pm</span>
+<span class='badge badge-default'>00:00:38:651</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          Test Started: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          TC_028 STARTED - Verify Edit button opens record with correct data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:31 pm</td>
+        <td>
+          Clicking Edit for record with First Name: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:33 pm</td>
+        <td>
+          Validating Registration Form is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:33 pm</td>
+        <td>
+          Validating Registration Form title is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:33 pm</td>
+        <td>
+          Fetching values from Registration Form
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Validating form data against expected values
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected First Name: Alden | Actual: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected Last Name: Cantrell | Actual: Cantrell
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected Email: alden@example.com | Actual: alden@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected Age: 45 | Actual: 45
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected Salary: 12000 | Actual: 12000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Expected Department: Compliance | Actual: Compliance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          TC_028 COMPLETED - Edit button opens correct record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:34 pm</td>
+        <td>
+          Test Case Passed: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</p>
+            <p class="text-sm">
+              <span>9:30:10 pm</span> / <span>00:00:31:423</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</h5>
+<span class='badge badge-success'>01.22.2026 9:30:10 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:30:41 pm</span>
+<span class='badge badge-default'>00:00:31:423</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          Test Started: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          TC_028 STARTED - Verify Edit button opens record with correct data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:10 pm</td>
+        <td>
+          Clicking Edit for record with First Name: Kierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Validating Registration Form is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Validating Registration Form title is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Fetching values from Registration Form
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Validating form data against expected values
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected First Name: Kierra | Actual: Kierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected Last Name: Gentry | Actual: Gentry
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected Email: kierra@example.com | Actual: kierra@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected Age: 29 | Actual: 29
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected Salary: 2000 | Actual: 2000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Expected Department: Legal | Actual: Legal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          TC_028 COMPLETED - Edit button opens correct record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:11 pm</td>
+        <td>
+          Test Case Passed: verifyEditButtonOpensRecordWithCorrectData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:41 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:41 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="webtable regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord</p>
+            <p class="text-sm">
+              <span>9:30:41 pm</span> / <span>00:00:45:387</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord</h5>
+<span class='badge badge-success'>01.22.2026 9:30:41 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:31:27 pm</span>
+<span class='badge badge-default'>00:00:45:387</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">webtable</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:41 pm</td>
+        <td>
+          Test Started: verifyDeleteExistingRecord
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:41 pm</td>
+        <td>
+          TC_030 STARTED - Verify Delete Existing Record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:41 pm</td>
+        <td>
+          Step 1: Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:42 pm</td>
+        <td>
+          Step 2: Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:42 pm</td>
+        <td>
+          Test Data - First Name to delete: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:42 pm</td>
+        <td>
+          Step 3: Fetching existing record before delete
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:43 pm</td>
+        <td>
+          Record found before delete: {firstName=Alden, lastName=Cantrell, age=45, email=alden@example.com, salary=12000, department=Compliance}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:43 pm</td>
+        <td>
+          Step 4: Clicking Delete icon for record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:54 pm</td>
+        <td>
+          Delete icon clicked successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:54 pm</td>
+        <td>
+          Step 5: Verifying record is removed from table
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:04 pm</td>
+        <td>
+          Record successfully deleted for First Name: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:04 pm</td>
+        <td>
+          TC_030 COMPLETED - Verify Delete Existing Record
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:04 pm</td>
+        <td>
+          Test Case Passed: verifyDeleteExistingRecord
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:11 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="searchBox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</p>
+            <p class="text-sm">
+              <span>9:31:27 pm</span> / <span>00:00:30:673</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</h5>
+<span class='badge badge-success'>01.22.2026 9:31:27 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:31:57 pm</span>
+<span class='badge badge-default'>00:00:30:673</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">searchBox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          Test Started: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          TC_031 STARTED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:27 pm</td>
+        <td>
+          Search keyword entered: Cierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:28 pm</td>
+        <td>
+          Search text entered in search box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:28 pm</td>
+        <td>
+          Verifying filtered table results
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:28 pm</td>
+        <td>
+          Only matching record is displayed for search keyword: Cierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:28 pm</td>
+        <td>
+          TC_031 COMPLETED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:28 pm</td>
+        <td>
+          Test Case Passed: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:36 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:57 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="searchBox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</p>
+            <p class="text-sm">
+              <span>9:31:57 pm</span> / <span>00:00:34:263</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</h5>
+<span class='badge badge-success'>01.22.2026 9:31:57 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:32:32 pm</span>
+<span class='badge badge-default'>00:00:34:263</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">searchBox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:57 pm</td>
+        <td>
+          Test Started: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:57 pm</td>
+        <td>
+          TC_031 STARTED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:57 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:58 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:58 pm</td>
+        <td>
+          Search keyword entered: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:58 pm</td>
+        <td>
+          Search text entered in search box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:58 pm</td>
+        <td>
+          Verifying filtered table results
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:59 pm</td>
+        <td>
+          Only matching record is displayed for search keyword: Alden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:59 pm</td>
+        <td>
+          TC_031 COMPLETED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:59 pm</td>
+        <td>
+          Test Case Passed: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:31 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:32 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="searchBox regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</p>
+            <p class="text-sm">
+              <span>9:32:32 pm</span> / <span>00:00:39:129</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</h5>
+<span class='badge badge-success'>01.22.2026 9:32:32 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:33:11 pm</span>
+<span class='badge badge-default'>00:00:39:129</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">searchBox</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:32 pm</td>
+        <td>
+          Test Started: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:32 pm</td>
+        <td>
+          TC_031 STARTED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:32 pm</td>
+        <td>
+          Clicked on Elements module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:33 pm</td>
+        <td>
+          Navigated to Web Tables page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:33 pm</td>
+        <td>
+          Search keyword entered: Kierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:33 pm</td>
+        <td>
+          Search text entered in search box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:33 pm</td>
+        <td>
+          Verifying filtered table results
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:34 pm</td>
+        <td>
+          Only matching record is displayed for search keyword: Kierra
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:34 pm</td>
+        <td>
+          TC_031 COMPLETED - Verify Search Functionality With Valid Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:34 pm</td>
+        <td>
+          Test Case Passed: verifySearchWithValidFirstName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:10 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:11 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="regression smoke buttons"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality</p>
+            <p class="text-sm">
+              <span>9:33:11 pm</span> / <span>00:00:18:707</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality</h5>
+<span class='badge badge-success'>01.22.2026 9:33:11 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:33:29 pm</span>
+<span class='badge badge-default'>00:00:18:707</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span>
+<span class="badge badge-pill badge-default">buttons</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:11 pm</td>
+        <td>
+          Test Started: verifyDoubleClickFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:11 pm</td>
+        <td>
+          TC_036 STARTED - Verify Double Click Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:12 pm</td>
+        <td>
+          Navigated to Buttons page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:12 pm</td>
+        <td>
+          Performed double click action
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:12 pm</td>
+        <td>
+          Double click message is displayed as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:12 pm</td>
+        <td>
+          TC_036 COMPLETED - Verify Double Click Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:12 pm</td>
+        <td>
+          Test Case Passed: verifyDoubleClickFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:29 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:29 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="regression smoke buttons"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality</p>
+            <p class="text-sm">
+              <span>9:33:29 pm</span> / <span>00:00:30:550</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality</h5>
+<span class='badge badge-success'>01.22.2026 9:33:29 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:34:00 pm</span>
+<span class='badge badge-default'>00:00:30:550</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span>
+<span class="badge badge-pill badge-default">buttons</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:29 pm</td>
+        <td>
+          Test Started: verifyRightClickFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:29 pm</td>
+        <td>
+          TC_037 STARTED - Verify Right Click Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:30 pm</td>
+        <td>
+          Navigated to Buttons page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:30 pm</td>
+        <td>
+          Performed right click action
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:30 pm</td>
+        <td>
+          Right click message is displayed as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:30 pm</td>
+        <td>
+          TC_037 COMPLETED - Verify Right Click Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:30 pm</td>
+        <td>
+          Test Case Passed: verifyRightClickFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:00 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:00 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="regression smoke buttons"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality</p>
+            <p class="text-sm">
+              <span>9:34:00 pm</span> / <span>00:00:25:880</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality</h5>
+<span class='badge badge-success'>01.22.2026 9:34:00 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:34:26 pm</span>
+<span class='badge badge-default'>00:00:25:880</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span>
+<span class="badge badge-pill badge-default">buttons</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:00 pm</td>
+        <td>
+          Test Started: verifyClickMeFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:00 pm</td>
+        <td>
+          TC_038 STARTED - Verify Click Me Button Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:01 pm</td>
+        <td>
+          Navigated to Buttons page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:02 pm</td>
+        <td>
+          Clicked on Click Me button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:02 pm</td>
+        <td>
+          Click Me message is displayed as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:02 pm</td>
+        <td>
+          TC_038 COMPLETED - Verify Click Me Button Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:02 pm</td>
+        <td>
+          Test Case Passed: verifyClickMeFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:10 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:26 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="22"
+          author=""
+          tag="links regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</p>
+            <p class="text-sm">
+              <span>9:34:26 pm</span> / <span>00:00:33:271</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</h5>
+<span class='badge badge-success'>01.22.2026 9:34:26 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:34:59 pm</span>
+<span class='badge badge-default'>00:00:33:271</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">links</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:26 pm</td>
+        <td>
+          Test Started: verifyLinkOpenInNewTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:26 pm</td>
+        <td>
+          TC_039 STARTED - Verify Home Link Opens In New Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:26 pm</td>
+        <td>
+          Navigated to Links page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:29 pm</td>
+        <td>
+          Switched to new tab and captured title: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>9:34:29 pm</td>
+        <td>
+          Test Case Skipped: verifyLinkOpenInNewTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>9:34:29 pm</td>
+        <td>
+          Reason: FAIL: Home link is not opened in new tab / title mismatch expected [DEMOQA] but found []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:59 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:59 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="links regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</p>
+            <p class="text-sm">
+              <span>9:34:59 pm</span> / <span>00:00:31:658</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</h5>
+<span class='badge badge-success'>01.22.2026 9:34:59 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:35:31 pm</span>
+<span class='badge badge-default'>00:00:31:658</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">links</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:59 pm</td>
+        <td>
+          Test Started: verifyLinkOpenInNewTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:59 pm</td>
+        <td>
+          TC_039 STARTED - Verify Home Link Opens In New Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:59 pm</td>
+        <td>
+          Navigated to Links page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:02 pm</td>
+        <td>
+          Switched to new tab and captured title: DEMOQA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:02 pm</td>
+        <td>
+          Home link opened in new tab successfully and title matched
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:02 pm</td>
+        <td>
+          TC_039 COMPLETED - Verify Home Link Opens In New Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:02 pm</td>
+        <td>
+          Test Case Passed: verifyLinkOpenInNewTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:10 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:31 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="api links regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</p>
+            <p class="text-sm">
+              <span>9:35:31 pm</span> / <span>00:00:42:584</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</h5>
+<span class='badge badge-success'>01.22.2026 9:35:31 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:36:13 pm</span>
+<span class='badge badge-default'>00:00:42:584</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">api</span>
+<span class="badge badge-pill badge-default">links</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:31 pm</td>
+        <td>
+          Test Started: verifyCreatedLinkAndGetResponseCode
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:31 pm</td>
+        <td>
+          TC_041 STARTED - Verify Created Link Response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:32 pm</td>
+        <td>
+          Navigated to Links page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:33 pm</td>
+        <td>
+          Created Link Response: Link has responded with staus 201 and status text Created
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:33 pm</td>
+        <td>
+          Created link response verified successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:33 pm</td>
+        <td>
+          TC_041 COMPLETED - Verify Created Link Response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:33 pm</td>
+        <td>
+          Test Case Passed: verifyCreatedLinkAndGetResponseCode
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:13 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:13 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="images regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage</p>
+            <p class="text-sm">
+              <span>9:36:13 pm</span> / <span>00:00:18:521</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage</h5>
+<span class='badge badge-success'>01.22.2026 9:36:13 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:36:32 pm</span>
+<span class='badge badge-default'>00:00:18:521</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">images</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:13 pm</td>
+        <td>
+          Test Started: verifyValidImage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:13 pm</td>
+        <td>
+          TC_048 STARTED - Verify Valid Image Is Loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:14 pm</td>
+        <td>
+          Navigated to Broken Links - Images page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:14 pm</td>
+        <td>
+          Valid Image Loaded Status: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:14 pm</td>
+        <td>
+          Valid image loaded successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:14 pm</td>
+        <td>
+          TC_048 COMPLETED - Verify Valid Image Is Loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:36:14 pm</td>
+        <td>
+          Test Case Passed: verifyValidImage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:31 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:32 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="regression filehandling smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality</p>
+            <p class="text-sm">
+              <span>9:36:32 pm</span> / <span>00:00:34:607</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality</h5>
+<span class='badge badge-success'>01.22.2026 9:36:32 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:37:07 pm</span>
+<span class='badge badge-default'>00:00:34:607</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">filehandling</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:32 pm</td>
+        <td>
+          Test Started: verifyDownloadFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:32 pm</td>
+        <td>
+          TC_052 STARTED - Verify Download Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:33 pm</td>
+        <td>
+          Navigated to Upload and Download page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:33 pm</td>
+        <td>
+          Clicked on Download button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:34 pm</td>
+        <td>
+          Downloaded file renamed to: Downloaded_20260122_213634.jpeg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:34 pm</td>
+        <td>
+          File present in downloads folder: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:34 pm</td>
+        <td>
+          File downloaded and verified successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:34 pm</td>
+        <td>
+          TC_052 COMPLETED - Verify Download Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:36:34 pm</td>
+        <td>
+          Test Case Passed: verifyDownloadFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:06 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="regression filehandling smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality</p>
+            <p class="text-sm">
+              <span>9:37:07 pm</span> / <span>00:00:32:293</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality</h5>
+<span class='badge badge-success'>01.22.2026 9:37:07 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:37:39 pm</span>
+<span class='badge badge-default'>00:00:32:293</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">filehandling</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Test Started: verifyUploadFileFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          TC_053 STARTED - Verify Upload File Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Navigated to Upload and Download page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Uploading file from path: D:\QA\DemoQA\downloads\Downloaded_20260118_193135.jpeg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Uploaded File Status Message: C:\fakepath\Downloaded_20260118_193135.jpeg
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          File uploaded successfully and file name verified
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          TC_053 COMPLETED - Verify Upload File Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:37:07 pm</td>
+        <td>
+          Test Case Passed: verifyUploadFileFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          ===== Initializing Home Page before test execution =====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Navigated to Elements module
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="regression smoke dynamic"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText</p>
+            <p class="text-sm">
+              <span>9:37:39 pm</span> / <span>00:00:00:489</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText</h5>
+<span class='badge badge-success'>01.22.2026 9:37:39 pm</span>
+<span class='badge badge-danger'>01.22.2026 9:37:39 pm</span>
+<span class='badge badge-default'>00:00:00:489</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span>
+<span class="badge badge-pill badge-default">dynamic</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Test Started: verifyRandomIdText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          TC_054 STARTED - Verify Random Id Text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Navigated to Dynamic Properties page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Random Id Text Displayed: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Random Id text verified successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          TC_054 COMPLETED - Verify Random Id Text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:37:39 pm</td>
+        <td>
+          Test Case Passed: verifyRandomIdText
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">13</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">webtable</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>webtable</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:27:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>27</span>
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">smoke</p>
+<p class="duration text-sm">28 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>smoke</h4>
+<span status="pass" class='badge log pass-bg'>27 passed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:27:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:32:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>21:34:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:35:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">dynamic</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>dynamic</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">api</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>api</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:35:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">searchBox</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>searchBox</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:32:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">filehandling</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>filehandling</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">images</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>images</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">textbox</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>textbox</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">links</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>links</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>21:34:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:35:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">radio</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>radio</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>27</span>
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">regression</p>
+<p class="duration text-sm">28 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>regression</h4>
+<span status="pass" class='badge log pass-bg'>27 passed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:27:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:29:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:30:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:32:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>21:34:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:35:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:37:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">buttons</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>buttons</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">checkbox</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>checkbox</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 22, 2026 09:23:03 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 22, 2026 09:37:40 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>27</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='96%'>
+<b>27</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='7%'><b>27</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>328</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData":23.104,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData":38.743,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyFormSubmissionWithValidData":30.405,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeFolderExpandCollapse":40.05,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyHomeSelectsAllCheckboxes":23.515,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyYesRadioButtonSelected":21.067,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddButtonOpensRegistrationForm":38.013,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData":30.056,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData":33.932,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData":34.482,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyAddingNewRecordWithAllValidData":28.26,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData":25.215,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData":38.651,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyEditButtonOpensRecordWithCorrectData":31.423,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDeleteExistingRecord":45.387,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName":30.673,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName":34.263,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifySearchWithValidFirstName":39.129,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDoubleClickFunctionality":18.707,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRightClickFunctionality":30.55,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyClickMeFunctionality":25.88,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab":33.271,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyLinkOpenInNewTab":31.658,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyCreatedLinkAndGetResponseCode":42.584,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyValidImage":18.521,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyDownloadFunctionality":34.607,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyUploadFileFunctionality":32.293,"com.demoqa.webautomation.testcases.ElementsFunctionalityTest.verifyRandomIdText":0.489
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>webtable</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>smoke</td>
+<td>27</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>96.429%</td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>api</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>searchBox</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>filehandling</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>images</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>textbox</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>links</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>radio</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>regression</td>
+<td>27</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>96.429%</td>
+</tr>
+<tr>
+<td>buttons</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>checkbox</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>DemoQA</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Tester Name</td>
+<td>SANJAY</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>windows</td>
+</tr>
+<tr>
+<td>Browser Name</td>
+<td>chrome</td>
+</tr>
+<tr>
+<td>Groups</td>
+<td>[smoke]</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 27,
+failParent: 0,
+warningParent: 0,
+skipParent: 1,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 27,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 2,
+infoEvents: 326
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
