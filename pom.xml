@@ -24,9 +24,12 @@
         <log4j.version>2.24.2</log4j.version>
         <slf4j.version>2.0.16</slf4j.version>
         <poi.version>5.3.0</poi.version>
+
+        <!-- Default TestNG suite file -->
+        <suiteXmlFile>testng.xml</suiteXmlFile>
     </properties>
 
-<build>
+    <build>
         <plugins>
 
             <!-- Compiler Plugin -->
@@ -48,9 +51,9 @@
                 <version>3.5.2</version>
 
                 <configuration>
-                    <!-- ✅ This is the main thing -->
+                    <!-- Suite file will come from Jenkins / command line -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <testFailureIgnore>false</testFailureIgnore>
@@ -83,12 +86,12 @@
             <version>5.9.2</version>
         </dependency>
 
-        <!-- TestNG (IMPORTANT: keep scope as test) -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
 
         <!-- Extent Reports -->
@@ -176,5 +179,4 @@
 
     </dependencies>
 
-    
 </project>
